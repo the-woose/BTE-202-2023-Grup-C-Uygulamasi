@@ -11,7 +11,7 @@ namespace BTE_202___2023_Grup_C_Uygulaması
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            Application.Run(new MainWindow());
         }
     }
 }
