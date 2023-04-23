@@ -3,5 +3,8 @@
 -
 ## İndirme Linki
 N/A
+## Nasıl Kullanılır
+### Karşılama Ekranı
+![goruntu](./Screenshots/MainMenu.jpg)
 ## Grup Üyeleri
 -

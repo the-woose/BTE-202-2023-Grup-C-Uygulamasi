@@ -13,6 +13,7 @@
     <Folder Include="Assets\Backgrounds\" />
     <Folder Include="Assets\Images\" />
     <Folder Include="Assets\UX\" />
+    <Folder Include="Screenshots\" />
   </ItemGroup>
 
   <ItemGroup>
