@@ -64,10 +64,10 @@
             // 
             // btnMin
             // 
-            btnMin.BackColor = Color.LightBlue;
+            btnMin.BackColor = Color.DarkTurquoise;
             btnMin.FlatAppearance.BorderSize = 0;
             btnMin.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            btnMin.ForeColor = Color.Black;
+            btnMin.ForeColor = Color.White;
             btnMin.Location = new Point(676, 14);
             btnMin.Margin = new Padding(5);
             btnMin.MaximumSize = new Size(50, 50);
@@ -99,6 +99,7 @@
             Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "MainWindow";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "MainWindow";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

@@ -16,5 +16,10 @@ namespace BTE_202___2023_Grup_C_Uygulaması
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void MainWindow_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
