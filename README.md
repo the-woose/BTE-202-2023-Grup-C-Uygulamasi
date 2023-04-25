@@ -11,7 +11,7 @@ N/A
 ### Quiz
 ![quiz](./Screenshots/FormQuiz.png)
 ### Organelleri Sürükle
--
+![surukle](./Screenshots/FormSurukle.png)
 ### Özellikleri Eşleştir
 ![eslestir](./Screenshots/FormEslestir.png)
 ## Grup Üyeleri
