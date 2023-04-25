@@ -121,4 +121,13 @@
   <data name="Menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Images\Menu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ORGANELLER - Kutu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\ORGANELLER - Kutu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ORGANELLER-Eslestir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\ORGANELLER-Eslestir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image20230424222529" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\Image20230424222529.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

@@ -63,9 +63,39 @@ namespace BTE_202___2023_Grup_C_Uygulaması.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Image20230424222529 {
+            get {
+                object obj = ResourceManager.GetObject("Image20230424222529", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Menu {
             get {
                 object obj = ResourceManager.GetObject("Menu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ORGANELLER___Kutu {
+            get {
+                object obj = ResourceManager.GetObject("ORGANELLER - Kutu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ORGANELLER_Eslestir {
+            get {
+                object obj = ResourceManager.GetObject("ORGANELLER-Eslestir", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

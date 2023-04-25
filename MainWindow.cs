@@ -17,9 +17,26 @@ namespace BTE_202___2023_Grup_C_Uygulaması
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void MainWindow_Load(object sender, EventArgs e)
+        private void btnHucre_Click(object sender, EventArgs e)
         {
 
+        }
+        private void btnQuiz_Click(object sender, EventArgs e)
+        {
+            FormQuiz frm1 = new FormQuiz();
+            frm1.Show();
+        }
+
+        private void btnSurukle_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEslestir_Click(object sender, EventArgs e)
+        {
+            FormEslestir frm3 = new FormEslestir();
+            //FormQuiz frm1 = new FormQuiz();
+            frm3.Show();
         }
     }
 }

@@ -32,6 +32,9 @@
             btnExit = new Button();
             btnMin = new Button();
             btnHucre = new Button();
+            btnQuiz = new Button();
+            btnSurukle = new Button();
+            btnEslestir = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -87,12 +90,46 @@
             btnHucre.TabIndex = 3;
             btnHucre.Text = "btnHücre";
             btnHucre.UseVisualStyleBackColor = true;
+            btnHucre.Click += btnHucre_Click;
+            // 
+            // btnQuiz
+            // 
+            btnQuiz.Location = new Point(524, 167);
+            btnQuiz.Name = "btnQuiz";
+            btnQuiz.Size = new Size(119, 41);
+            btnQuiz.TabIndex = 4;
+            btnQuiz.Text = "btnQuiz";
+            btnQuiz.UseVisualStyleBackColor = true;
+            btnQuiz.Click += btnQuiz_Click;
+            // 
+            // btnSurukle
+            // 
+            btnSurukle.Location = new Point(524, 225);
+            btnSurukle.Name = "btnSurukle";
+            btnSurukle.Size = new Size(119, 41);
+            btnSurukle.TabIndex = 5;
+            btnSurukle.Text = "btnSürükle";
+            btnSurukle.UseVisualStyleBackColor = true;
+            btnSurukle.Click += btnSurukle_Click;
+            // 
+            // btnEslestir
+            // 
+            btnEslestir.Location = new Point(524, 283);
+            btnEslestir.Name = "btnEslestir";
+            btnEslestir.Size = new Size(119, 41);
+            btnEslestir.TabIndex = 6;
+            btnEslestir.Text = "btnEşleştir";
+            btnEslestir.UseVisualStyleBackColor = true;
+            btnEslestir.Click += btnEslestir_Click;
             // 
             // MainWindow
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnEslestir);
+            Controls.Add(btnSurukle);
+            Controls.Add(btnQuiz);
             Controls.Add(btnHucre);
             Controls.Add(btnMin);
             Controls.Add(btnExit);
@@ -111,5 +148,8 @@
         private Button btnExit;
         private Button btnMin;
         private Button btnHucre;
+        private Button btnQuiz;
+        private Button btnSurukle;
+        private Button btnEslestir;
     }
 }
