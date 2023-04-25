@@ -63,6 +63,36 @@ namespace BTE_202___2023_Grup_C_Uygulaması.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cekirdek1 {
+            get {
+                object obj = ResourceManager.GetObject("cekirdek1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap govde1 {
+            get {
+                object obj = ResourceManager.GetObject("govde1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap govde2 {
+            get {
+                object obj = ResourceManager.GetObject("govde2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Image20230424222529 {
             get {
                 object obj = ResourceManager.GetObject("Image20230424222529", resourceCulture);
@@ -76,6 +106,36 @@ namespace BTE_202___2023_Grup_C_Uygulaması.Properties {
         internal static System.Drawing.Bitmap Menu {
             get {
                 object obj = ResourceManager.GetObject("Menu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mito1 {
+            get {
+                object obj = ResourceManager.GetObject("mito1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mito2 {
+            get {
+                object obj = ResourceManager.GetObject("mito2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mito3 {
+            get {
+                object obj = ResourceManager.GetObject("mito3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

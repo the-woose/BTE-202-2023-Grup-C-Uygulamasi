@@ -29,13 +29,13 @@ namespace BTE_202___2023_Grup_C_Uygulaması
 
         private void btnSurukle_Click(object sender, EventArgs e)
         {
-
+            FormSurukle frm2 = new FormSurukle();
+            frm2.Show();
         }
 
         private void btnEslestir_Click(object sender, EventArgs e)
         {
             FormEslestir frm3 = new FormEslestir();
-            //FormQuiz frm1 = new FormQuiz();
             frm3.Show();
         }
     }
