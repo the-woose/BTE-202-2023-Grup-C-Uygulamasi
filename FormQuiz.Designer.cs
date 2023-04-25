@@ -35,9 +35,13 @@
             label1 = new Label();
             label2 = new Label();
             panel1 = new Panel();
+            button2 = new Button();
+            button1 = new Button();
             radioButton1 = new RadioButton();
+            panel2 = new Panel();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // btnMin
@@ -89,8 +93,9 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.Anchor = AnchorStyles.Top;
             pictureBox1.Image = Properties.Resources.Image20230424222529;
-            pictureBox1.Location = new Point(400, 71);
+            pictureBox1.Location = new Point(404, 42);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(288, 330);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -120,14 +125,50 @@
             // 
             // panel1
             // 
+            panel1.Controls.Add(button2);
+            panel1.Controls.Add(button1);
             panel1.Controls.Add(radioButton1);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(label2);
             panel1.Dock = DockStyle.Bottom;
-            panel1.Location = new Point(0, 458);
+            panel1.Location = new Point(0, 362);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1082, 304);
+            panel1.Size = new Size(1082, 400);
             panel1.TabIndex = 12;
+            // 
+            // button2
+            // 
+            button2.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            button2.BackColor = Color.Green;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            button2.ForeColor = Color.White;
+            button2.Location = new Point(1018, 336);
+            button2.Margin = new Padding(5);
+            button2.MaximumSize = new Size(50, 50);
+            button2.MinimumSize = new Size(50, 50);
+            button2.Name = "button2";
+            button2.Size = new Size(50, 50);
+            button2.TabIndex = 14;
+            button2.Text = ">";
+            button2.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            button1.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            button1.BackColor = Color.Green;
+            button1.FlatAppearance.BorderSize = 0;
+            button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            button1.ForeColor = Color.White;
+            button1.Location = new Point(958, 336);
+            button1.Margin = new Padding(5);
+            button1.MaximumSize = new Size(50, 50);
+            button1.MinimumSize = new Size(50, 50);
+            button1.Name = "button1";
+            button1.Size = new Size(50, 50);
+            button1.TabIndex = 13;
+            button1.Text = "<";
+            button1.UseVisualStyleBackColor = false;
             // 
             // radioButton1
             // 
@@ -141,13 +182,22 @@
             radioButton1.Text = "radioButton1";
             radioButton1.UseVisualStyleBackColor = true;
             // 
+            // panel2
+            // 
+            panel2.Controls.Add(pictureBox1);
+            panel2.Dock = DockStyle.Fill;
+            panel2.Location = new Point(0, 80);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(1082, 282);
+            panel2.TabIndex = 13;
+            // 
             // FormQuiz
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1082, 762);
+            Controls.Add(panel2);
             Controls.Add(panel1);
-            Controls.Add(pictureBox1);
             Controls.Add(btnMin);
             Controls.Add(btnExit);
             Controls.Add(lblBaslik);
@@ -158,6 +208,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            panel2.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -171,5 +222,8 @@
         private Label label2;
         private Panel panel1;
         private RadioButton radioButton1;
+        private Button button2;
+        private Button button1;
+        private Panel panel2;
     }
 }

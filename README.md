@@ -5,6 +5,11 @@
 N/A
 ## Nasıl Kullanılır
 ### Karşılama Ekranı
-![goruntu](./Screenshots/MainMenu.jpg)
+![karsilama](./Screenshots/MainMenu.jpg)
+### Quiz
+![quiz](./Screenshots/FormQuiz.png)
+### Organelleri Sürükle
+### Özellikleri Eşleştir
+![eslestir](./Screenshots/FormEslestir.png)
 ## Grup Üyeleri
 -
