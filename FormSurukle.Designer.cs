@@ -94,19 +94,21 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             pictureBox1.BackgroundImageLayout = ImageLayout.None;
             pictureBox1.Image = Properties.Resources.govde1;
             pictureBox1.Location = new Point(38, 132);
+            pictureBox1.MaximumSize = new Size(542, 782);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(244, 402);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 11;
             pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.cekirdek1;
-            pictureBox2.Location = new Point(387, 191);
+            pictureBox2.Location = new Point(435, 162);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(88, 90);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -115,8 +117,11 @@
             // 
             // pictureBox3
             // 
+            pictureBox3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
+            pictureBox3.BackgroundImageLayout = ImageLayout.None;
             pictureBox3.Image = Properties.Resources.govde2;
             pictureBox3.Location = new Point(705, 143);
+            pictureBox3.MaximumSize = new Size(542, 782);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(271, 391);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -126,7 +131,7 @@
             // pictureBox4
             // 
             pictureBox4.Image = Properties.Resources.mito1;
-            pictureBox4.Location = new Point(421, 540);
+            pictureBox4.Location = new Point(469, 511);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(94, 72);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -136,7 +141,7 @@
             // pictureBox5
             // 
             pictureBox5.Image = Properties.Resources.mito2;
-            pictureBox5.Location = new Point(361, 447);
+            pictureBox5.Location = new Point(409, 418);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(82, 87);
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -146,7 +151,7 @@
             // pictureBox6
             // 
             pictureBox6.Image = Properties.Resources.mito3;
-            pictureBox6.Location = new Point(475, 447);
+            pictureBox6.Location = new Point(523, 418);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(86, 74);
             pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
