@@ -1,8 +1,6 @@
 # BTE 202 - 2023 Grup C Uygulaması
 ## Yenilikler
 
-
-
 - Uygulamalara yönlendiren Ana Menü oluşturuldu
 - Arka plan fonksiyonlarını eklemek amacıyla basit arayüz oluşturuldu. Bazı görseller eklendi.
 - Rastgele soru sorma özelliğine uyumlu olması için quiz soruları .csv formatındaki dosyaya eklendi.
