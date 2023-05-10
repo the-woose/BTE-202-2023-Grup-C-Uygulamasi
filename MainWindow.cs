@@ -19,7 +19,8 @@ namespace BTE_202___2023_Grup_C_Uygulaması
 
         private void btnHucre_Click(object sender, EventArgs e)
         {
-
+            FormHucre frm0 = new FormHucre();
+            frm0.Show();
         }
         private void btnQuiz_Click(object sender, EventArgs e)
         {

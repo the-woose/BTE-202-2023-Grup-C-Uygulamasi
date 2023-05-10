@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BTE_202___2023_Grup_C_Uygulaması
 {
-    public partial class FormQuiz : Form
+    public partial class FormHucre : Form
     {
-        public FormQuiz()
+        public FormHucre()
         {
             InitializeComponent();
         }
@@ -25,16 +25,6 @@ namespace BTE_202___2023_Grup_C_Uygulaması
         private void btnMin_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
-        }
-
-        private void sonraki_Soru(object sender, EventArgs e)
-        {
-
-        }
-
-        private void onceki_Soru(object sender, EventArgs e)
-        {
-
         }
     }
 }

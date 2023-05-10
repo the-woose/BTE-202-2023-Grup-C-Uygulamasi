@@ -152,6 +152,7 @@
             button2.TabIndex = 14;
             button2.Text = ">";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += sonraki_Soru;
             // 
             // button1
             // 
@@ -169,6 +170,7 @@
             button1.TabIndex = 13;
             button1.Text = "<";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += onceki_Soru;
             // 
             // radioButton1
             // 
