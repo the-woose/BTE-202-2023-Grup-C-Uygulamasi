@@ -1,151 +1,281 @@
 ﻿{
-  "hucre_soru_seti": [
-    {
-      {
-        "itemID" 1,
-        "soru" "Lizozom organeli aşağıdaki olaylardan hangisinde görev almaz?",
-        "cevapDogru": ,
-        "cevap1": ,
-        "cevap2":,
-        "cevap3": ,
-        "cevap4": 
-      },
-      {
-        "itemID" 2,
-        "soru": " Bir hücrenin\\nI.	Hücre duvarı\nII.	Ribozom\\nIII.	Mitokondri\\nyapılarından hangilerine sahip olması ökaryot hücre olduğuna karar vermek için kullanılabilir?",
-        "cevapDogru":,
-        "cevap1":,
-        "cevap2":,
-        "cevap3":,
-        "cevap4":
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      },
-      {
-
-      }
-    }
-  ]
+  {
+    "itemID": 1,
+    "soru": "Lizozom organeli aşağıdaki olaylardan hangisinde görev almaz?",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  },
+  {
+    "itemID": 2,
+    "soru": "Bir hücrenin, I. Hücre duvar, II. Ribozom III. Mitokondri yapılarından hangilerine sahip olması ökaryot hücre olduğuna karar vermek için kullanılabilir?",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  },
+  {
+    "itemID": 3,
+    "soru": "Prokaryot bir hücrede, I. ribozom, II. hücre zarı, III. mitokondri, IV. çekirdek zarı, yapılarından hangisi bulunur?",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  },
+  {
+    "itemID": 4,
+    "soru": "Mitokondri organeliyle ilgili, I. Oksijenli solunum yapan her hücrede bulunur. II. Matriks sıvında kendi özgü DNA, RNA ve ribozomlar bulunur. III. İç zara ait kıvrımlar krista olarak adlandırılıp geniş bir yüzey alanına sahiptir. yargılarından hangileri doğrudur?",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  },
+  {
+    "itemID": 5,
+    "soru": "Sentrozom organeli inaktif hale getirilen hayvan hücrelerinde aşağıdakilerden hangisi gerçekleşemez?",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  },
+  {
+    "itemID": 6,
+    "soru": "Aşağıdaki organellerden hangisi hücre zarının üretiminde görev almaz?",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  },
+  {
+    "itemID": 7,
+    "soru": "Kloroplast organeli ile ilgili; I. DNA ve RNA bulundurma, II. II. fotofosforilasyon ile ATP sentezleme, III. III. protein sentezleyebilme özelliklerinden hangileri mitokondri organeli için de söylenebilir? ",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  },
+  {
+    "itemID": 8,
+    "soru": "Sitoplazma ile ilgili, I. Yarı akışkan bir sıvıdır. II. II. %70 - 90 oranında sudan oluşur. III. III. Tüm canlı hücrelerde bulunur. ifadelerinden hangileri söylenebilir? ",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  },
+  {
+    "itemID": 9,
+    "soru": "I. Kloroplast II. Ribozom III. Endoplazmik retikulum IV. Koful V. Mitokondri Yukarıda verilen organeller ile zar yapısı bakımından çiftler oluşturulursa hangisi açıkta kalır? ",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  },
+  {
+    "itemID": 10,
+    "soru": "Sentrozom organeli ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  },
+  {
+    "itemID": 11,
+    "soru": "Aşağıdaki organellerden hangisi prokaryot ve ökaryot tüm hücrelerde bulunur?",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  },
+  {
+    "itemID": 12,
+    "soru": "Kloroplast organeli ile ilgili aşağıdaki ifadelerden hangisi yanlıştır? ",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  },
+  {
+    "itemID": 13,
+    "soru": "Hücre iskeleti ile ilgili aşağıdaki ifadelerden hangisi yanlıştır? ",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  },
+  {
+    "itemID": 14,
+    "soru": "Aşağıdaki yapı veya organellerin hangisinden koful meydana gelmez?",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  },
+  {
+    "itemID": 15,
+    "soru": "Ökaryot bir hücrede bulunan; I. kloroplast, II. mitokondri, III. endoplazmik retikulum organellerinin hangilerinde protein sentezi gerçekleşebilir?",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  },
+  {
+    "itemID": 16,
+    "soru": "Hücre dışına sindirim enzimi salgılayan ökaryot bir hücrede aşağıdaki organellerden hangisinin sayıca fazla olması beklenmez? ",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  },
+  {
+    "itemID": 17,
+    "soru": "Golgi cisimciği ile ilgili aşağıdakilerden hangisi yanlıştır?",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  },
+  {
+    "itemID": 18,
+    "soru": "Bir hücreye ait farklı organellerin özellikleri verilmiştir. I. Başka organellerin içinde ve üstünde bulunabilme II. Enerji tüketiminin çok olduğu hücrelerde fazla sayıda olma III. Gelişmiş bitki ve mantar hücrelerinde bulunmama IV. Kas hücrelerinin kasılabilmesi için gerekli olan Ca2+ depolayabilme V. Hücre yaşlandıkça büyüklüğünün artması Buna göre, özelliklerin organeller ile eşleştirmesi aşağıdakilerden hangisinde yanlıştır? ",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  },
+  {
+    "itemID": 19,
+    "soru": " Hücre zarı ile ilgili, I. Zar yapısında yer alan fosfolipitler hareket hâlindedir. II. Zar yapısındaki glikoprotein ve glikolipit moleküllerinin dağılımı, tüm canlıların hücre zarlarında aynıdır. III. Zar yapısında yer alan taşıyıcı proteinler, bütün moleküllerin zardan geçişinde görev alır. ifadelerinden hangileri doğrudur? ",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  },
+  {
+    "itemID": 20,
+    "soru": "Prokaryot ve ökaryot hücre ayrımında, I. Mikrotübül bulunma, II. Çift katlı zarlı organele sahip olma, III. DNA’nın bulunduğu kısım özelliklerinden hangileri kullanılır? ",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  },
+  {
+    "itemID": 21,
+    "soru": "Bir hücrede gerçekleşen; I. mitokondrilerinde enerji üretmek, II. ribozomlarında protein sentezlemek, III. kloroplastlarında glikoz sentezlemek olaylarından hangileri hücrenin prokaryot olmadığının kesin kanıtıdır? ",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  },
+  {
+    "itemID": 22,
+    "soru": "Tipik bir bitki ve hayvan hücresi karşılaştırıldığında aşağıdakilerden hangisi ",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  },
+  {
+    "itemID": 23,
+    "soru": "ortak değildir?",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  },
+  {
+    "itemID": 24,
+    "soru": "Bir organelin bazı görevleri verilmiştir. • Endoplazmik retikulumda üretilen maddelerin depolanıp, paketlenmesi • Glikoprotein ve lipoprotein üretimi • Lizozomların oluşumu Buna göre, olayların tamamında görevli organel aşağıdakilerden hangisidir? ",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  },
+  {
+    "itemID": 25,
+    "soru": "Ribozom organeli ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  },
+  {
+    "itemID": 26,
+    "soru": "Hücre iskeleti ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  },
+  {
+    "itemID": 27,
+    "soru": "Aşağıda verilen organellerden hangisi tüm ökaryot hücrelerde ortak olarak bulunmaz?",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  },
+  {
+    "itemID": 28,
+    "soru": "Çekirdek zarı ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  },
+  {
+    "itemID": 29,
+    "soru": "Prokaryot ve ökaryot hücre ayrımında aşağıdakilerden hangisinin varlığı kullanılabilir?",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  },
+  {
+    "itemID": 30,
+    "soru": "Bir insana ait aşağıda verilen hücrelerin hangisinde sentrozom organeli bulunabilir?",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  },
+  {
+    "itemID": 31,
+    "soru": "Ökaryot hücrelerin sitoplazmasında aşağıda verilenlerden hangisi bulunmaz?",
+    "cevapDogru": "a",
+    "cevap1": "b",
+    "cevap2": "c",
+    "cevap3": "d",
+    "cevap4": "e"
+  }
 }
