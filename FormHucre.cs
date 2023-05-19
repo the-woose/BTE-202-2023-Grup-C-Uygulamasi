@@ -26,5 +26,10 @@ namespace BTE_202___2023_Grup_C_Uygulaması
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            textSoru.Text = "Meraba";
+        }
     }
 }

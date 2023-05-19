@@ -31,6 +31,9 @@
             lblBaslik = new Label();
             btnExit = new Button();
             btnMin = new Button();
+            textSoru = new TextBox();
+            textCevap = new TextBox();
+            button1 = new Button();
             SuspendLayout();
             // 
             // lblBaslik
@@ -39,9 +42,9 @@
             lblBaslik.Font = new Font("Segoe UI", 30F, FontStyle.Regular, GraphicsUnit.Point);
             lblBaslik.Location = new Point(0, 0);
             lblBaslik.Name = "lblBaslik";
-            lblBaslik.Size = new Size(966, 76);
+            lblBaslik.Size = new Size(1486, 76);
             lblBaslik.TabIndex = 9;
-            lblBaslik.Text = "Cl";
+            lblBaslik.Text = "Hayvan ve Bitki Hücreleri";
             lblBaslik.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // btnExit
@@ -51,7 +54,7 @@
             btnExit.FlatAppearance.BorderSize = 0;
             btnExit.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnExit.ForeColor = Color.White;
-            btnExit.Location = new Point(902, 14);
+            btnExit.Location = new Point(1422, 14);
             btnExit.Margin = new Padding(5);
             btnExit.MaximumSize = new Size(50, 50);
             btnExit.MinimumSize = new Size(50, 50);
@@ -69,7 +72,7 @@
             btnMin.FlatAppearance.BorderSize = 0;
             btnMin.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnMin.ForeColor = Color.White;
-            btnMin.Location = new Point(842, 14);
+            btnMin.Location = new Point(1362, 14);
             btnMin.Margin = new Padding(5);
             btnMin.MaximumSize = new Size(50, 50);
             btnMin.MinimumSize = new Size(50, 50);
@@ -80,11 +83,42 @@
             btnMin.UseVisualStyleBackColor = false;
             btnMin.Click += btnMin_Click;
             // 
+            // textSoru
+            // 
+            textSoru.Location = new Point(32, 265);
+            textSoru.Multiline = true;
+            textSoru.Name = "textSoru";
+            textSoru.Size = new Size(415, 133);
+            textSoru.TabIndex = 13;
+            textSoru.Text = "Soru";
+            // 
+            // textCevap
+            // 
+            textCevap.Location = new Point(32, 404);
+            textCevap.Multiline = true;
+            textCevap.Name = "textCevap";
+            textCevap.Size = new Size(415, 110);
+            textCevap.TabIndex = 13;
+            textCevap.Text = "Cevap";
+            // 
+            // button1
+            // 
+            button1.Location = new Point(32, 216);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 14;
+            button1.Text = "SoruGetir";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // FormHucre
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(966, 506);
+            ClientSize = new Size(1486, 801);
+            Controls.Add(button1);
+            Controls.Add(textCevap);
+            Controls.Add(textSoru);
             Controls.Add(btnExit);
             Controls.Add(btnMin);
             Controls.Add(lblBaslik);
@@ -93,6 +127,7 @@
             Text = "FormHucre";
             WindowState = FormWindowState.Maximized;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -100,5 +135,8 @@
         private Label lblBaslik;
         private Button btnExit;
         private Button btnMin;
+        private TextBox textSoru;
+        private TextBox textCevap;
+        private Button button1;
     }
 }
