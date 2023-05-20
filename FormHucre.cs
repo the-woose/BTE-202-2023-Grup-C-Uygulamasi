@@ -31,11 +31,13 @@ namespace BTE_202___2023_Grup_C_Uygulaması
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textSoru.Text = "Helö";
+            Random rastgele = new Random();
+            int rastgeleSayi = rastgele.Next(0,12);
             string konuDosyasi = File.ReadAllText("../../../Assets/konular.json");
             List<Konular> konular = JsonConvert.DeserializeObject<List<Konular>>(konuDosyasi);
             //textCevap.Text = konular.ToString();
-            textCevap.Text = konular[0].cisim.ToString();
+            textSoru.Text = konular[rastgeleSayi].cisim.ToString();
+            textCevap.Text = konular[rastgeleSayi].tanim.ToString();
         }
 
         class Konular
