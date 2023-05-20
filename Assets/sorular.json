@@ -1,94 +1,93 @@
-﻿{
-  "sorular": [
+﻿[
   {
     "itemID": 1,
     "soru": "Lizozom organeli aşağıdaki olaylardan hangisinde görev almaz?",
-    "cevapDogru": "a",
-    "cevap1": "b",
-    "cevap2": "c",
-    "cevap3": "d",
-    "cevap4": "e"
+    "cevapDogru": "Glikozun inorganik bileşenlere kadar yıkılması",
+    "cevap1": "Hücrenin yıpranan organellerinin parçalanması",
+    "cevap2": "Kurbağaların başkalaşım sürecinde kuyruk hücrelerinin parçalanması",
+    "cevap3": "İnsanların embriyonik gelişim sürecinde parmaklarının oluşması",
+    "cevap4": "Akyuvarların fagositoz ile yuttukları mikropları sindirmesi"
   },
   {
     "itemID": 2,
-    "soru": "Bir hücrenin, I. Hücre duvar, II. Ribozom III. Mitokondri yapılarından hangilerine sahip olması ökaryot hücre olduğuna karar vermek için kullanılabilir?",
-    "cevapDogru": "a",
-    "cevap1": "b",
-    "cevap2": "c",
-    "cevap3": "d",
-    "cevap4": "e"
+    "soru": "Bir hücrenin,\r\nI. Hücre duvar,\r\nII. Ribozom\r\nIII. Mitokondri yapılarından hangilerine sahip olması ökaryot hücre olduğuna karar vermek için kullanılabilir?",
+    "cevapDogru": "Yalnız III",
+    "cevap1": "I ve II",
+    "cevap2": "III ve II",
+    "cevap3": "I, II ve III",
+    "cevap4": "Yanız II"
   },
   {
     "itemID": 3,
-    "soru": "Prokaryot bir hücrede, I. ribozom, II. hücre zarı, III. mitokondri, IV. çekirdek zarı, yapılarından hangisi bulunur?",
-    "cevapDogru": "a",
-    "cevap1": "b",
-    "cevap2": "c",
-    "cevap3": "d",
-    "cevap4": "e"
+    "soru": "Prokaryot bir hücrede,\r\nI. ribozom,\r\nII. hücre zarı,\r\nIII. mitokondri,\r\nIV. çekirdek zarı, yapılarından hangisi bulunur?",
+    "cevapDogru": "I ve II",
+    "cevap1": "I ve IV",
+    "cevap2": "I,II ve III",
+    "cevap3": "II ve IV",
+    "cevap4": "II ve III"
   },
   {
     "itemID": 4,
-    "soru": "Mitokondri organeliyle ilgili, I. Oksijenli solunum yapan her hücrede bulunur. II. Matriks sıvında kendi özgü DNA, RNA ve ribozomlar bulunur. III. İç zara ait kıvrımlar krista olarak adlandırılıp geniş bir yüzey alanına sahiptir. yargılarından hangileri doğrudur?",
-    "cevapDogru": "a",
-    "cevap1": "b",
-    "cevap2": "c",
-    "cevap3": "d",
-    "cevap4": "e"
+    "soru": "Mitokondri organeliyle ilgili,\r\nI. Oksijenli solunum yapan her hücrede bulunur.\r\nII. Matriks sıvında kendi özgü DNA, RNA ve ribozomlar bulunur.\r\nIII. İç zara ait kıvrımlar krista olarak adlandırılıp geniş bir yüzey alanına sahiptir. yargılarından hangileri doğrudur?",
+    "cevapDogru": "II ve III",
+    "cevap1": "I ve III",
+    "cevap2": "Yalnız I",
+    "cevap3": "I ve III",
+    "cevap4": "Yanız III"
   },
   {
     "itemID": 5,
     "soru": "Sentrozom organeli inaktif hale getirilen hayvan hücrelerinde aşağıdakilerden hangisi gerçekleşemez?",
-    "cevapDogru": "a",
-    "cevap1": "b",
-    "cevap2": "c",
-    "cevap3": "d",
-    "cevap4": "e"
+    "cevapDogru": "Hücre bölünmesi",
+    "cevap1": "Oksijenli solunum",
+    "cevap2": "Glikojen sentezi",
+    "cevap3": "Aktif taşıma",
+    "cevap4": "Protein sentezi"
   },
   {
     "itemID": 6,
     "soru": "Aşağıdaki organellerden hangisi hücre zarının üretiminde görev almaz?",
-    "cevapDogru": "a",
-    "cevap1": "b",
-    "cevap2": "c",
-    "cevap3": "d",
-    "cevap4": "e"
+    "cevapDogru": "Lizozom",
+    "cevap1": "Golgi cisimciği",
+    "cevap2": "Endoplazmik retikulum",
+    "cevap3": "Ribozom",
+    "cevap4": "Mitokondri"
   },
   {
     "itemID": 7,
-    "soru": "Kloroplast organeli ile ilgili; I. DNA ve RNA bulundurma, II. II. fotofosforilasyon ile ATP sentezleme, III. III. protein sentezleyebilme özelliklerinden hangileri mitokondri organeli için de söylenebilir? ",
-    "cevapDogru": "a",
-    "cevap1": "b",
-    "cevap2": "c",
-    "cevap3": "d",
-    "cevap4": "e"
+    "soru": "Kloroplast organeli ile ilgili;\r\nI. DNA ve RNA bulundurma,\r\nII. fotofosforilasyon ile ATP sentezleme,\r\nIII. protein sentezleyebilme özelliklerinden hangileri mitokondri organeli için de söylenebilir? ",
+    "cevapDogru": "I ve III",
+    "cevap1": "Yalnız I",
+    "cevap2": "Yalnız II",
+    "cevap3": "Yalnız III",
+    "cevap4": "I,II ve III"
   },
   {
     "itemID": 8,
-    "soru": "Sitoplazma ile ilgili, I. Yarı akışkan bir sıvıdır. II. II. %70 - 90 oranında sudan oluşur. III. III. Tüm canlı hücrelerde bulunur. ifadelerinden hangileri söylenebilir? ",
-    "cevapDogru": "a",
-    "cevap1": "b",
-    "cevap2": "c",
-    "cevap3": "d",
-    "cevap4": "e"
+    "soru": "Sitoplazma ile ilgili,\r\nI. Yarı akışkan bir sıvıdır.\r\nII. %70 - 90 oranında sudan oluşur.\r\nIII. Tüm canlı hücrelerde bulunur. ifadelerinden hangileri söylenebilir? ",
+    "cevapDogru": "?",
+    "cevap1": "?",
+    "cevap2": "?",
+    "cevap3": "?",
+    "cevap4": "?"
   },
   {
     "itemID": 9,
-    "soru": "I. Kloroplast II. Ribozom III. Endoplazmik retikulum IV. Koful V. Mitokondri Yukarıda verilen organeller ile zar yapısı bakımından çiftler oluşturulursa hangisi açıkta kalır? ",
-    "cevapDogru": "a",
-    "cevap1": "b",
-    "cevap2": "c",
-    "cevap3": "d",
-    "cevap4": "e"
+    "soru": "I. Kloroplast\r\nII. Ribozom\r\nIII. Endoplazmik retikulum\r\nIV. Koful\r\nV. Mitokondri Yukarıda verilen organeller ile zar yapısı bakımından çiftler oluşturulursa hangisi açıkta kalır? ",
+    "cevapDogru": "?",
+    "cevap1": "?",
+    "cevap2": "?",
+    "cevap3": "?",
+    "cevap4": "?"
   },
   {
     "itemID": 10,
     "soru": "Sentrozom organeli ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
-    "cevapDogru": "a",
-    "cevap1": "b",
-    "cevap2": "c",
-    "cevap3": "d",
-    "cevap4": "e"
+    "cevapDogru": "Sperm hücresinde bulunmaz",
+    "cevap1": "İki sentriolden oluşur",
+    "cevap2": "Zarsız bir organeldir",
+    "cevap3": "İğ ipliği oluşumunu sağlar",
+    "cevap4": "Hücre bölünmesinde görev yapar"
   },
   {
     "itemID": 11,
@@ -128,7 +127,7 @@
   },
   {
     "itemID": 15,
-    "soru": "Ökaryot bir hücrede bulunan; I. kloroplast, II. mitokondri, III. endoplazmik retikulum organellerinin hangilerinde protein sentezi gerçekleşebilir?",
+    "soru": "Ökaryot bir hücrede bulunan;\r\nI. kloroplast,\r\nII. mitokondri,\r\nIII. endoplazmik retikulum organellerinin hangilerinde protein sentezi gerçekleşebilir?",
     "cevapDogru": "a",
     "cevap1": "b",
     "cevap2": "c",
@@ -155,7 +154,7 @@
   },
   {
     "itemID": 18,
-    "soru": "Bir hücreye ait farklı organellerin özellikleri verilmiştir. I. Başka organellerin içinde ve üstünde bulunabilme II. Enerji tüketiminin çok olduğu hücrelerde fazla sayıda olma III. Gelişmiş bitki ve mantar hücrelerinde bulunmama IV. Kas hücrelerinin kasılabilmesi için gerekli olan Ca2+ depolayabilme V. Hücre yaşlandıkça büyüklüğünün artması Buna göre, özelliklerin organeller ile eşleştirmesi aşağıdakilerden hangisinde yanlıştır? ",
+    "soru": "Bir hücreye ait farklı organellerin özellikleri verilmiştir.\r\nI. Başka organellerin içinde ve üstünde bulunabilme\r\nII. Enerji tüketiminin çok olduğu hücrelerde fazla sayıda olma\r\nIII. Gelişmiş bitki ve mantar hücrelerinde bulunmama\r\nIV. Kas hücrelerinin kasılabilmesi için gerekli olan Ca2+ depolayabilme\r\nV. Hücre yaşlandıkça büyüklüğünün artması Buna göre, özelliklerin organeller ile eşleştirmesi aşağıdakilerden hangisinde yanlıştır? ",
     "cevapDogru": "a",
     "cevap1": "b",
     "cevap2": "c",
@@ -164,7 +163,7 @@
   },
   {
     "itemID": 19,
-    "soru": " Hücre zarı ile ilgili, I. Zar yapısında yer alan fosfolipitler hareket hâlindedir. II. Zar yapısındaki glikoprotein ve glikolipit moleküllerinin dağılımı, tüm canlıların hücre zarlarında aynıdır. III. Zar yapısında yer alan taşıyıcı proteinler, bütün moleküllerin zardan geçişinde görev alır. ifadelerinden hangileri doğrudur? ",
+    "soru": " Hücre zarı ile ilgili,\r\nI. Zar yapısında yer alan fosfolipitler hareket hâlindedir.\r\nII. Zar yapısındaki glikoprotein ve glikolipit moleküllerinin dağılımı, tüm canlıların hücre zarlarında aynıdır.\r\nIII. Zar yapısında yer alan taşıyıcı proteinler, bütün moleküllerin zardan geçişinde görev alır. ifadelerinden hangileri doğrudur? ",
     "cevapDogru": "a",
     "cevap1": "b",
     "cevap2": "c",
@@ -173,7 +172,7 @@
   },
   {
     "itemID": 20,
-    "soru": "Prokaryot ve ökaryot hücre ayrımında, I. Mikrotübül bulunma, II. Çift katlı zarlı organele sahip olma, III. DNA’nın bulunduğu kısım özelliklerinden hangileri kullanılır? ",
+    "soru": "Prokaryot ve ökaryot hücre ayrımında,\r\nI. Mikrotübül bulunma,\r\nII. Çift katlı zarlı organele sahip olma,\r\nIII. DNA’nın bulunduğu kısım özelliklerinden hangileri kullanılır? ",
     "cevapDogru": "a",
     "cevap1": "b",
     "cevap2": "c",
@@ -182,7 +181,7 @@
   },
   {
     "itemID": 21,
-    "soru": "Bir hücrede gerçekleşen; I. mitokondrilerinde enerji üretmek, II. ribozomlarında protein sentezlemek, III. kloroplastlarında glikoz sentezlemek olaylarından hangileri hücrenin prokaryot olmadığının kesin kanıtıdır? ",
+    "soru": "Bir hücrede gerçekleşen;\r\nI. mitokondrilerinde enerji üretmek,\r\nII. ribozomlarında protein sentezlemek,\r\nIII. kloroplastlarında glikoz sentezlemek olaylarından hangileri hücrenin prokaryot olmadığının kesin kanıtıdır? ",
     "cevapDogru": "a",
     "cevap1": "b",
     "cevap2": "c",
@@ -279,5 +278,4 @@
     "cevap3": "d",
     "cevap4": "e"
   }
-  ]
-}
+]
