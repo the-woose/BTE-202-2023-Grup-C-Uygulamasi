@@ -1,5 +1,4 @@
-﻿{
-  "hucre_konu_seti": [
+﻿[
     {
       "itemID": 1,
       "cisim": "Koful",
@@ -64,12 +63,6 @@
       "itemID": 13,
       "cisim": "Salgı kofulu",
       "tanim": "Golgi aygıtında üretilen salgıların ve metabolizma sonucu meydana gelen atık maddelerin hücre dışına verilmesini sağlayan keseciklerdir."
-    },
-    {
-      "itemID": 14,
-    },
-    {
-      "itemID": 15,
     }
+
   ]
-}

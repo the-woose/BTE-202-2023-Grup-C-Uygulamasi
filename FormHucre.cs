@@ -8,19 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
-using System.Text.Json;
+using Newtonsoft.Json;
 
 namespace BTE_202___2023_Grup_C_Uygulaması
 {
     public partial class FormHucre : Form
     {
-
         public FormHucre()
         {
             InitializeComponent();
-            string text = File.ReadAllText(@"./Assets/konular.json");
-            var soru = JsonSerializer.Deserialize<konular>(text);
-            Console.WriteLine($"Soru numarası: {konular.hucre_soru_seti[itemID]}");
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -35,9 +31,19 @@ namespace BTE_202___2023_Grup_C_Uygulaması
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textSoru.Text = "Meraba";
+            textSoru.Text = "Helö";
+            string konuDosyasi = File.ReadAllText("../../../Assets/konular.json");
+            List<Konular> konular = JsonConvert.DeserializeObject<List<Konular>>(konuDosyasi);
+            //textCevap.Text = konular.ToString();
+            textCevap.Text = konular[0].cisim.ToString();
         }
 
+        class Konular
+        {
+            public int itemID { get; set; }
+            public string cisim { get; set; }
+            public string tanim { get; set; }
+        }
 
-    }
+}
 }

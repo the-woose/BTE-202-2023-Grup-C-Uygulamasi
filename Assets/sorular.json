@@ -1,4 +1,5 @@
 ﻿{
+  "sorular": [
   {
     "itemID": 1,
     "soru": "Lizozom organeli aşağıdaki olaylardan hangisinde görev almaz?",
@@ -278,4 +279,5 @@
     "cevap3": "d",
     "cevap4": "e"
   }
+  ]
 }
