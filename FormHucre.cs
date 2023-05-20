@@ -32,7 +32,7 @@ namespace BTE_202___2023_Grup_C_Uygulaması
         private void button1_Click(object sender, EventArgs e)
         {
             Random rastgele = new Random();
-            int rastgeleSayi = rastgele.Next(0,12);
+            int rastgeleSayi = rastgele.Next(0, 12);
             //string konuDosyasi = File.ReadAllText("../../../Assets/konular.json");
             string konuDosyasi = File.ReadAllText("./Assets/konular.json");
             List<Konular> konular = JsonConvert.DeserializeObject<List<Konular>>(konuDosyasi);
@@ -46,6 +46,5 @@ namespace BTE_202___2023_Grup_C_Uygulaması
             public string cisim { get; set; }
             public string tanim { get; set; }
         }
-
-}
+    }
 }

@@ -28,12 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormHucre));
             lblBaslik = new Label();
             btnExit = new Button();
             btnMin = new Button();
             textSoru = new TextBox();
             textCevap = new TextBox();
             button1 = new Button();
+            pictureBox2 = new PictureBox();
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // lblBaslik
@@ -85,31 +90,55 @@
             // 
             // textSoru
             // 
-            textSoru.Location = new Point(32, 265);
+            textSoru.Location = new Point(558, 139);
+            textSoru.MaximumSize = new Size(415, 133);
             textSoru.Multiline = true;
             textSoru.Name = "textSoru";
             textSoru.Size = new Size(415, 133);
             textSoru.TabIndex = 13;
-            textSoru.Text = "Soru";
+            textSoru.Text = "Cisim";
             // 
             // textCevap
             // 
-            textCevap.Location = new Point(32, 404);
+            textCevap.Location = new Point(558, 278);
+            textCevap.MaximumSize = new Size(415, 133);
             textCevap.Multiline = true;
             textCevap.Name = "textCevap";
-            textCevap.Size = new Size(415, 110);
+            textCevap.Size = new Size(415, 133);
             textCevap.TabIndex = 13;
-            textCevap.Text = "Cevap";
+            textCevap.Text = "Tanım";
             // 
             // button1
             // 
-            button1.Location = new Point(32, 216);
+            button1.Location = new Point(568, 97);
+            button1.MaximumSize = new Size(75, 23);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 14;
-            button1.Text = "SoruGetir";
+            button1.Text = "TanımGetir";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(894, 97);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(578, 607);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 15;
+            pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(53, 79);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(476, 625);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 16;
+            pictureBox1.TabStop = false;
             // 
             // FormHucre
             // 
@@ -122,10 +151,14 @@
             Controls.Add(btnExit);
             Controls.Add(btnMin);
             Controls.Add(lblBaslik);
+            Controls.Add(pictureBox2);
+            Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "FormHucre";
             Text = "FormHucre";
             WindowState = FormWindowState.Maximized;
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -138,5 +171,7 @@
         private TextBox textSoru;
         private TextBox textCevap;
         private Button button1;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox1;
     }
 }

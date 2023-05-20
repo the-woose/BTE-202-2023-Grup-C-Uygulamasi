@@ -32,10 +32,19 @@ namespace BTE_202___2023_Grup_C_Uygulaması
         {
             Random rastgele = new Random();
             int rastgeleSayi = rastgele.Next(0, 30);
-            string soruDosyasi = File.ReadAllText("../../../Assets/sorular.json");
+            string soruDosyasi = File.ReadAllText("./Assets/sorular.json");
             List<Sorular> sorular = JsonConvert.DeserializeObject<List<Sorular>>(soruDosyasi);
             //lblSoru.Text = soruDosyasi;
             textSoru.Text = sorular[rastgeleSayi].soru.ToString();
+            List<string> cevapListesi = new List<string>()
+            {
+                sorular[rastgeleSayi].cevapDogru,
+                sorular[rastgeleSayi].cevap1,
+                sorular[rastgeleSayi].cevap2,
+                sorular[rastgeleSayi].cevap3,
+                sorular[rastgeleSayi].cevap4
+            };
+            cevapListesi.Karistir();
             //textCevap.Text = konular[rastgeleSayi].tanim.ToString();
         }
 
@@ -43,6 +52,8 @@ namespace BTE_202___2023_Grup_C_Uygulaması
         {
 
         }
+
+
 
         class Sorular
         {
@@ -54,5 +65,22 @@ namespace BTE_202___2023_Grup_C_Uygulaması
             public string cevap3 { get; set; }
             public string cevap4 { get; set; }
         }
+    }
+    static class Metodlar
+    {
+        private static Random soruKaristir = new Random();
+        public static void Karistir<T>(this IList<T> list)
+        {
+            int n = list.Count;
+            while (n > 1)
+            {
+                n--;
+                int k = soruKaristir.Next(n + 1);
+                T value = list[k];
+                list[k] = list[n];
+                list[n] = value;
+            }
+        }
+
     }
 }

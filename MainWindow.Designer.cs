@@ -88,7 +88,7 @@
             btnHucre.Name = "btnHucre";
             btnHucre.Size = new Size(119, 41);
             btnHucre.TabIndex = 3;
-            btnHucre.Text = "btnHücre";
+            btnHucre.Text = "Hücreler";
             btnHucre.UseVisualStyleBackColor = true;
             btnHucre.Click += btnHucre_Click;
             // 
@@ -98,7 +98,7 @@
             btnQuiz.Name = "btnQuiz";
             btnQuiz.Size = new Size(119, 41);
             btnQuiz.TabIndex = 4;
-            btnQuiz.Text = "btnQuiz";
+            btnQuiz.Text = "Quiz";
             btnQuiz.UseVisualStyleBackColor = true;
             btnQuiz.Click += btnQuiz_Click;
             // 
@@ -108,7 +108,7 @@
             btnSurukle.Name = "btnSurukle";
             btnSurukle.Size = new Size(119, 41);
             btnSurukle.TabIndex = 5;
-            btnSurukle.Text = "btnSürükle";
+            btnSurukle.Text = "Sürükle-Bırak";
             btnSurukle.UseVisualStyleBackColor = true;
             btnSurukle.Click += btnSurukle_Click;
             // 
@@ -118,7 +118,7 @@
             btnEslestir.Name = "btnEslestir";
             btnEslestir.Size = new Size(119, 41);
             btnEslestir.TabIndex = 6;
-            btnEslestir.Text = "btnEşleştir";
+            btnEslestir.Text = "Eşleştir";
             btnEslestir.UseVisualStyleBackColor = true;
             btnEslestir.Click += btnEslestir_Click;
             // 

@@ -38,11 +38,11 @@
             textSoru = new TextBox();
             button2 = new Button();
             button1 = new Button();
-            radioButton5 = new RadioButton();
-            radioButton4 = new RadioButton();
-            radioButton3 = new RadioButton();
-            radioButton2 = new RadioButton();
-            radioButton1 = new RadioButton();
+            lblCvp5 = new RadioButton();
+            lblCvp4 = new RadioButton();
+            lblCvp3 = new RadioButton();
+            lblCvp2 = new RadioButton();
+            lblCvp1 = new RadioButton();
             panel2 = new Panel();
             pictureBox2 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -125,11 +125,11 @@
             panel1.Controls.Add(textSoru);
             panel1.Controls.Add(button2);
             panel1.Controls.Add(button1);
-            panel1.Controls.Add(radioButton5);
-            panel1.Controls.Add(radioButton4);
-            panel1.Controls.Add(radioButton3);
-            panel1.Controls.Add(radioButton2);
-            panel1.Controls.Add(radioButton1);
+            panel1.Controls.Add(lblCvp5);
+            panel1.Controls.Add(lblCvp4);
+            panel1.Controls.Add(lblCvp3);
+            panel1.Controls.Add(lblCvp2);
+            panel1.Controls.Add(lblCvp1);
             panel1.Controls.Add(lblSoruBaslik);
             panel1.Dock = DockStyle.Bottom;
             panel1.Location = new Point(0, 307);
@@ -183,65 +183,65 @@
             button1.UseVisualStyleBackColor = false;
             button1.Click += onceki_Soru;
             // 
-            // radioButton5
+            // lblCvp5
             // 
-            radioButton5.AutoSize = true;
-            radioButton5.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            radioButton5.Location = new Point(25, 359);
-            radioButton5.Name = "radioButton5";
-            radioButton5.Size = new Size(171, 36);
-            radioButton5.TabIndex = 12;
-            radioButton5.TabStop = true;
-            radioButton5.Text = "radioButton1";
-            radioButton5.UseVisualStyleBackColor = true;
+            lblCvp5.AutoSize = true;
+            lblCvp5.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            lblCvp5.Location = new Point(25, 359);
+            lblCvp5.Name = "lblCvp5";
+            lblCvp5.Size = new Size(44, 36);
+            lblCvp5.TabIndex = 12;
+            lblCvp5.TabStop = true;
+            lblCvp5.Text = "E";
+            lblCvp5.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // lblCvp4
             // 
-            radioButton4.AutoSize = true;
-            radioButton4.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            radioButton4.Location = new Point(25, 317);
-            radioButton4.Name = "radioButton4";
-            radioButton4.Size = new Size(171, 36);
-            radioButton4.TabIndex = 12;
-            radioButton4.TabStop = true;
-            radioButton4.Text = "radioButton1";
-            radioButton4.UseVisualStyleBackColor = true;
+            lblCvp4.AutoSize = true;
+            lblCvp4.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            lblCvp4.Location = new Point(25, 317);
+            lblCvp4.Name = "lblCvp4";
+            lblCvp4.Size = new Size(49, 36);
+            lblCvp4.TabIndex = 12;
+            lblCvp4.TabStop = true;
+            lblCvp4.Text = "D";
+            lblCvp4.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // lblCvp3
             // 
-            radioButton3.AutoSize = true;
-            radioButton3.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            radioButton3.Location = new Point(25, 275);
-            radioButton3.Name = "radioButton3";
-            radioButton3.Size = new Size(171, 36);
-            radioButton3.TabIndex = 12;
-            radioButton3.TabStop = true;
-            radioButton3.Text = "radioButton1";
-            radioButton3.UseVisualStyleBackColor = true;
+            lblCvp3.AutoSize = true;
+            lblCvp3.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            lblCvp3.Location = new Point(25, 275);
+            lblCvp3.Name = "lblCvp3";
+            lblCvp3.Size = new Size(47, 36);
+            lblCvp3.TabIndex = 12;
+            lblCvp3.TabStop = true;
+            lblCvp3.Text = "C";
+            lblCvp3.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // lblCvp2
             // 
-            radioButton2.AutoSize = true;
-            radioButton2.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            radioButton2.Location = new Point(25, 233);
-            radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(171, 36);
-            radioButton2.TabIndex = 12;
-            radioButton2.TabStop = true;
-            radioButton2.Text = "radioButton1";
-            radioButton2.UseVisualStyleBackColor = true;
+            lblCvp2.AutoSize = true;
+            lblCvp2.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            lblCvp2.Location = new Point(25, 233);
+            lblCvp2.Name = "lblCvp2";
+            lblCvp2.Size = new Size(46, 36);
+            lblCvp2.TabIndex = 12;
+            lblCvp2.TabStop = true;
+            lblCvp2.Text = "B";
+            lblCvp2.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // lblCvp1
             // 
-            radioButton1.AutoSize = true;
-            radioButton1.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            radioButton1.Location = new Point(25, 191);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(171, 36);
-            radioButton1.TabIndex = 12;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "radioButton1";
-            radioButton1.UseVisualStyleBackColor = true;
+            lblCvp1.AutoSize = true;
+            lblCvp1.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            lblCvp1.Location = new Point(25, 191);
+            lblCvp1.Name = "lblCvp1";
+            lblCvp1.Size = new Size(47, 36);
+            lblCvp1.TabIndex = 12;
+            lblCvp1.TabStop = true;
+            lblCvp1.Text = "A";
+            lblCvp1.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
@@ -294,14 +294,14 @@
         private PictureBox pictureBox1;
         private Label lblSoruBaslik;
         private Panel panel1;
-        private RadioButton radioButton1;
+        private RadioButton lblCvp1;
         private Button button2;
         private Button button1;
         private Panel panel2;
-        private RadioButton radioButton5;
-        private RadioButton radioButton4;
-        private RadioButton radioButton3;
-        private RadioButton radioButton2;
+        private RadioButton lblCvp5;
+        private RadioButton lblCvp4;
+        private RadioButton lblCvp3;
+        private RadioButton lblCvp2;
         private TextBox textSoru;
         private PictureBox pictureBox2;
     }
