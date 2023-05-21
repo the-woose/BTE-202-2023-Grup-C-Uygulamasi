@@ -58,16 +58,17 @@ namespace BTE_202___2023_Grup_C_Uygulaması
 
         private void onceki_Soru(object sender, EventArgs e)
         {
-            int sonSoru = soruGecmisi.First();
+            int sonSoru = soruGecmisi.FirstOrDefault();
             bool isEmpty = !soruGecmisi.Any();
             if (isEmpty)
             {
                 Console.WriteLine("Hata!");
+                return;
             }
             else
             {
                 soruGecmisi.Pop();
-                sonSoru = soruGecmisi.First();
+                sonSoru = soruGecmisi.FirstOrDefault();
                 List<Sorular> sorular = JsonConvert.DeserializeObject<List<Sorular>>(soruDosyasi);
                 textSoru.Text = sorular[sonSoru].soru.ToString();
                 List<string> cevapListesi = new List<string>()
@@ -90,7 +91,7 @@ namespace BTE_202___2023_Grup_C_Uygulaması
 
         private void btnKontrol(object sender, EventArgs e)
         {
-            int sonSoru = soruGecmisi.First();
+            int sonSoru = soruGecmisi.FirstOrDefault();
             List<Sorular> sorular = JsonConvert.DeserializeObject<List<Sorular>>(soruDosyasi);
             if (lblCvp1.Checked)
             {
