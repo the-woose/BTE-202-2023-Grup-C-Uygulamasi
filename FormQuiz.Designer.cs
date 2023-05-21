@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormQuiz));
             btnMin = new Button();
             btnExit = new Button();
             lblBaslik = new Label();
@@ -46,11 +45,9 @@
             lblCvp2 = new RadioButton();
             lblCvp1 = new RadioButton();
             panel2 = new Panel();
-            pictureBox2 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // btnMin
@@ -103,10 +100,10 @@
             // pictureBox1
             // 
             pictureBox1.Anchor = AnchorStyles.Top;
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(345, 31);
+            pictureBox1.Image = Properties.Resources.quiz;
+            pictureBox1.Location = new Point(502, 12);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(288, 330);
+            pictureBox1.Size = new Size(400, 400);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 9;
             pictureBox1.TabStop = false;
@@ -136,9 +133,9 @@
             panel1.Controls.Add(lblCvp1);
             panel1.Controls.Add(lblSoruBaslik);
             panel1.Dock = DockStyle.Bottom;
-            panel1.Location = new Point(0, 394);
+            panel1.Location = new Point(0, 309);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1414, 455);
+            panel1.Size = new Size(1414, 540);
             panel1.TabIndex = 12;
             // 
             // labelCevap
@@ -156,10 +153,10 @@
             // 
             textSoru.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             textSoru.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
-            textSoru.Location = new Point(116, 13);
+            textSoru.Location = new Point(124, 13);
             textSoru.Multiline = true;
             textSoru.Name = "textSoru";
-            textSoru.Size = new Size(1278, 172);
+            textSoru.Size = new Size(1278, 232);
             textSoru.TabIndex = 15;
             // 
             // button2
@@ -169,7 +166,7 @@
             button2.FlatAppearance.BorderSize = 0;
             button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             button2.ForeColor = Color.White;
-            button2.Location = new Point(1350, 391);
+            button2.Location = new Point(1350, 476);
             button2.Margin = new Padding(5);
             button2.MaximumSize = new Size(50, 50);
             button2.MinimumSize = new Size(50, 50);
@@ -187,7 +184,7 @@
             buttonKontrol.FlatAppearance.BorderSize = 0;
             buttonKontrol.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             buttonKontrol.ForeColor = Color.White;
-            buttonKontrol.Location = new Point(680, 391);
+            buttonKontrol.Location = new Point(680, 476);
             buttonKontrol.Margin = new Padding(5);
             buttonKontrol.MaximumSize = new Size(75, 50);
             buttonKontrol.MinimumSize = new Size(75, 50);
@@ -205,7 +202,7 @@
             button1.FlatAppearance.BorderSize = 0;
             button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             button1.ForeColor = Color.White;
-            button1.Location = new Point(1290, 391);
+            button1.Location = new Point(1290, 476);
             button1.Margin = new Padding(5);
             button1.MaximumSize = new Size(50, 50);
             button1.MinimumSize = new Size(50, 50);
@@ -220,7 +217,7 @@
             // 
             lblCvp5.AutoSize = true;
             lblCvp5.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            lblCvp5.Location = new Point(25, 359);
+            lblCvp5.Location = new Point(33, 419);
             lblCvp5.Name = "lblCvp5";
             lblCvp5.Size = new Size(44, 36);
             lblCvp5.TabIndex = 12;
@@ -232,7 +229,7 @@
             // 
             lblCvp4.AutoSize = true;
             lblCvp4.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            lblCvp4.Location = new Point(25, 317);
+            lblCvp4.Location = new Point(33, 377);
             lblCvp4.Name = "lblCvp4";
             lblCvp4.Size = new Size(49, 36);
             lblCvp4.TabIndex = 12;
@@ -244,7 +241,7 @@
             // 
             lblCvp3.AutoSize = true;
             lblCvp3.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            lblCvp3.Location = new Point(25, 275);
+            lblCvp3.Location = new Point(33, 335);
             lblCvp3.Name = "lblCvp3";
             lblCvp3.Size = new Size(47, 36);
             lblCvp3.TabIndex = 12;
@@ -256,7 +253,7 @@
             // 
             lblCvp2.AutoSize = true;
             lblCvp2.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            lblCvp2.Location = new Point(25, 233);
+            lblCvp2.Location = new Point(33, 293);
             lblCvp2.Name = "lblCvp2";
             lblCvp2.Size = new Size(46, 36);
             lblCvp2.TabIndex = 12;
@@ -268,7 +265,7 @@
             // 
             lblCvp1.AutoSize = true;
             lblCvp1.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            lblCvp1.Location = new Point(25, 191);
+            lblCvp1.Location = new Point(33, 251);
             lblCvp1.Name = "lblCvp1";
             lblCvp1.Size = new Size(47, 36);
             lblCvp1.TabIndex = 12;
@@ -278,24 +275,12 @@
             // 
             // panel2
             // 
-            panel2.Controls.Add(pictureBox2);
             panel2.Controls.Add(pictureBox1);
             panel2.Dock = DockStyle.Fill;
             panel2.Location = new Point(0, 80);
             panel2.Name = "panel2";
-            panel2.Size = new Size(1414, 314);
+            panel2.Size = new Size(1414, 229);
             panel2.TabIndex = 13;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Anchor = AnchorStyles.Top;
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(764, 31);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(348, 330);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 9;
-            pictureBox2.TabStop = false;
             // 
             // FormQuiz
             // 
@@ -315,7 +300,6 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
         }
 
@@ -336,7 +320,6 @@
         private RadioButton lblCvp3;
         private RadioButton lblCvp2;
         private TextBox textSoru;
-        private PictureBox pictureBox2;
         private Button buttonKontrol;
         private Label labelCevap;
     }

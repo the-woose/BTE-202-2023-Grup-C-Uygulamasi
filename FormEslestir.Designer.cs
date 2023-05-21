@@ -34,10 +34,7 @@
             pictureBox1 = new PictureBox();
             button1 = new Button();
             button2 = new Button();
-            pictureBox2 = new PictureBox();
-            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // btnMin
@@ -47,7 +44,7 @@
             btnMin.FlatAppearance.BorderSize = 0;
             btnMin.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnMin.ForeColor = Color.White;
-            btnMin.Location = new Point(934, 14);
+            btnMin.Location = new Point(1367, 14);
             btnMin.Margin = new Padding(5);
             btnMin.MaximumSize = new Size(50, 50);
             btnMin.MinimumSize = new Size(50, 50);
@@ -65,7 +62,7 @@
             btnExit.FlatAppearance.BorderSize = 0;
             btnExit.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnExit.ForeColor = Color.White;
-            btnExit.Location = new Point(994, 14);
+            btnExit.Location = new Point(1427, 14);
             btnExit.Margin = new Padding(5);
             btnExit.MaximumSize = new Size(50, 50);
             btnExit.MinimumSize = new Size(50, 50);
@@ -82,7 +79,7 @@
             lblBaslik.Font = new Font("Segoe UI", 30F, FontStyle.Regular, GraphicsUnit.Point);
             lblBaslik.Location = new Point(0, 0);
             lblBaslik.Name = "lblBaslik";
-            lblBaslik.Size = new Size(1058, 76);
+            lblBaslik.Size = new Size(1491, 76);
             lblBaslik.TabIndex = 7;
             lblBaslik.Text = "Özellikleri Eşleştir";
             lblBaslik.TextAlign = ContentAlignment.MiddleCenter;
@@ -90,7 +87,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.ORGANELLER_Eslestir;
-            pictureBox1.Location = new Point(41, 79);
+            pictureBox1.Location = new Point(31, 118);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(163, 563);
             pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
@@ -104,7 +101,7 @@
             button1.FlatAppearance.BorderSize = 0;
             button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             button1.ForeColor = Color.White;
-            button1.Location = new Point(934, 594);
+            button1.Location = new Point(1367, 734);
             button1.Margin = new Padding(5);
             button1.MaximumSize = new Size(50, 50);
             button1.MinimumSize = new Size(50, 50);
@@ -121,7 +118,7 @@
             button2.FlatAppearance.BorderSize = 0;
             button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             button2.ForeColor = Color.White;
-            button2.Location = new Point(994, 594);
+            button2.Location = new Point(1427, 734);
             button2.Margin = new Padding(5);
             button2.MaximumSize = new Size(50, 50);
             button2.MinimumSize = new Size(50, 50);
@@ -131,33 +128,11 @@
             button2.Text = ">";
             button2.UseVisualStyleBackColor = false;
             // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = Properties.Resources.ORGANELLER___Kutu;
-            pictureBox2.Location = new Point(210, 79);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(155, 559);
-            pictureBox2.SizeMode = PictureBoxSizeMode.AutoSize;
-            pictureBox2.TabIndex = 11;
-            pictureBox2.TabStop = false;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(371, 92);
-            label1.Name = "label1";
-            label1.Size = new Size(1310, 32);
-            label1.TabIndex = 12;
-            label1.Text = "Örnek özellik yazısı. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.";
-            // 
             // FormEslestir
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1058, 658);
-            Controls.Add(label1);
-            Controls.Add(pictureBox2);
+            ClientSize = new Size(1491, 798);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(pictureBox1);
@@ -169,7 +144,6 @@
             Text = "FormEslestir";
             WindowState = FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -182,7 +156,5 @@
         private PictureBox pictureBox1;
         private Button button1;
         private Button button2;
-        private PictureBox pictureBox2;
-        private Label label1;
     }
 }
