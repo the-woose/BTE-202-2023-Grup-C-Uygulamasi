@@ -35,8 +35,10 @@
             pictureBox1 = new PictureBox();
             lblSoruBaslik = new Label();
             panel1 = new Panel();
+            labelCevap = new Label();
             textSoru = new TextBox();
             button2 = new Button();
+            buttonKontrol = new Button();
             button1 = new Button();
             lblCvp5 = new RadioButton();
             lblCvp4 = new RadioButton();
@@ -58,7 +60,7 @@
             btnMin.FlatAppearance.BorderSize = 0;
             btnMin.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnMin.ForeColor = Color.White;
-            btnMin.Location = new Point(958, 14);
+            btnMin.Location = new Point(1290, 14);
             btnMin.Margin = new Padding(5);
             btnMin.MaximumSize = new Size(50, 50);
             btnMin.MinimumSize = new Size(50, 50);
@@ -76,7 +78,7 @@
             btnExit.FlatAppearance.BorderSize = 0;
             btnExit.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnExit.ForeColor = Color.White;
-            btnExit.Location = new Point(1018, 14);
+            btnExit.Location = new Point(1350, 14);
             btnExit.Margin = new Padding(5);
             btnExit.MaximumSize = new Size(50, 50);
             btnExit.MinimumSize = new Size(50, 50);
@@ -93,7 +95,7 @@
             lblBaslik.Font = new Font("Segoe UI", 30F, FontStyle.Regular, GraphicsUnit.Point);
             lblBaslik.Location = new Point(0, 0);
             lblBaslik.Name = "lblBaslik";
-            lblBaslik.Size = new Size(1082, 80);
+            lblBaslik.Size = new Size(1414, 80);
             lblBaslik.TabIndex = 8;
             lblBaslik.Text = "Quiz";
             lblBaslik.TextAlign = ContentAlignment.MiddleCenter;
@@ -102,7 +104,7 @@
             // 
             pictureBox1.Anchor = AnchorStyles.Top;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(179, 31);
+            pictureBox1.Location = new Point(345, 31);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(288, 330);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -122,8 +124,10 @@
             // 
             // panel1
             // 
+            panel1.Controls.Add(labelCevap);
             panel1.Controls.Add(textSoru);
             panel1.Controls.Add(button2);
+            panel1.Controls.Add(buttonKontrol);
             panel1.Controls.Add(button1);
             panel1.Controls.Add(lblCvp5);
             panel1.Controls.Add(lblCvp4);
@@ -132,10 +136,21 @@
             panel1.Controls.Add(lblCvp1);
             panel1.Controls.Add(lblSoruBaslik);
             panel1.Dock = DockStyle.Bottom;
-            panel1.Location = new Point(0, 307);
+            panel1.Location = new Point(0, 394);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1082, 455);
+            panel1.Size = new Size(1414, 455);
             panel1.TabIndex = 12;
+            // 
+            // labelCevap
+            // 
+            labelCevap.Anchor = AnchorStyles.Top;
+            labelCevap.AutoSize = true;
+            labelCevap.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            labelCevap.Location = new Point(633, 197);
+            labelCevap.Name = "labelCevap";
+            labelCevap.Size = new Size(0, 30);
+            labelCevap.TabIndex = 16;
+            labelCevap.TextAlign = ContentAlignment.TopCenter;
             // 
             // textSoru
             // 
@@ -144,7 +159,7 @@
             textSoru.Location = new Point(116, 13);
             textSoru.Multiline = true;
             textSoru.Name = "textSoru";
-            textSoru.Size = new Size(946, 172);
+            textSoru.Size = new Size(1278, 172);
             textSoru.TabIndex = 15;
             // 
             // button2
@@ -154,7 +169,7 @@
             button2.FlatAppearance.BorderSize = 0;
             button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             button2.ForeColor = Color.White;
-            button2.Location = new Point(1018, 391);
+            button2.Location = new Point(1350, 391);
             button2.Margin = new Padding(5);
             button2.MaximumSize = new Size(50, 50);
             button2.MinimumSize = new Size(50, 50);
@@ -165,6 +180,24 @@
             button2.UseVisualStyleBackColor = false;
             button2.Click += sonraki_Soru;
             // 
+            // buttonKontrol
+            // 
+            buttonKontrol.Anchor = AnchorStyles.Bottom;
+            buttonKontrol.BackColor = Color.Green;
+            buttonKontrol.FlatAppearance.BorderSize = 0;
+            buttonKontrol.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            buttonKontrol.ForeColor = Color.White;
+            buttonKontrol.Location = new Point(680, 391);
+            buttonKontrol.Margin = new Padding(5);
+            buttonKontrol.MaximumSize = new Size(75, 50);
+            buttonKontrol.MinimumSize = new Size(75, 50);
+            buttonKontrol.Name = "buttonKontrol";
+            buttonKontrol.Size = new Size(75, 50);
+            buttonKontrol.TabIndex = 13;
+            buttonKontrol.Text = "Kontrol Et";
+            buttonKontrol.UseVisualStyleBackColor = false;
+            buttonKontrol.Click += btnKontrol;
+            // 
             // button1
             // 
             button1.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
@@ -172,7 +205,7 @@
             button1.FlatAppearance.BorderSize = 0;
             button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             button1.ForeColor = Color.White;
-            button1.Location = new Point(958, 391);
+            button1.Location = new Point(1290, 391);
             button1.Margin = new Padding(5);
             button1.MaximumSize = new Size(50, 50);
             button1.MinimumSize = new Size(50, 50);
@@ -250,14 +283,14 @@
             panel2.Dock = DockStyle.Fill;
             panel2.Location = new Point(0, 80);
             panel2.Name = "panel2";
-            panel2.Size = new Size(1082, 227);
+            panel2.Size = new Size(1414, 314);
             panel2.TabIndex = 13;
             // 
             // pictureBox2
             // 
             pictureBox2.Anchor = AnchorStyles.Top;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(598, 31);
+            pictureBox2.Location = new Point(764, 31);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(348, 330);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -268,7 +301,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1082, 762);
+            ClientSize = new Size(1414, 849);
             Controls.Add(panel2);
             Controls.Add(panel1);
             Controls.Add(btnMin);
@@ -304,5 +337,7 @@
         private RadioButton lblCvp2;
         private TextBox textSoru;
         private PictureBox pictureBox2;
+        private Button buttonKontrol;
+        private Label labelCevap;
     }
 }
