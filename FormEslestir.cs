@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Formats.Asn1;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -13,7 +14,8 @@ namespace BTE_202___2023_Grup_C_Uygulaması
 {
     public partial class FormEslestir : Form
     {
-        Bitmap buttonImage = Properties.Resources.cekirdek1;
+        string draggedTag = string.Empty;
+        string droppedTag = string.Empty;
         private int xPos;
         private int yPos;
         public FormEslestir()
@@ -32,23 +34,11 @@ namespace BTE_202___2023_Grup_C_Uygulaması
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            //!!!!!!!!!!!!!!!!!
-            //!!! DELETE ME !!!
-            //!!!!!!!!!!!!!!!!!
-            //
-            //label1.Text = pictureBox2.BackgroundImage.GetType().ToString();
-            var sendername = sender as PictureBox;
-            label1.Text = sendername.BackgroundImage.ToString();
-        }
-
         private void picture_MouseDown(object sender, MouseEventArgs e)
         {
             PictureBox p = sender as PictureBox;
             Bitmap bmp = new Bitmap(52, 52);
             p.DrawToBitmap(bmp, new Rectangle(Point.Empty, bmp.Size));
-            //buttonImage = bmp;
             if (e.Button == MouseButtons.Left)
             {
                 p.DoDragDrop(p.BackgroundImage, DragDropEffects.All);
@@ -60,6 +50,7 @@ namespace BTE_202___2023_Grup_C_Uygulaması
             PictureBox p = sender as PictureBox;
             if (p != null)
             {
+                draggedTag = p.Tag.ToString();
                 if (e.Button == MouseButtons.Left)
                 {
                     p.Top += (e.Y - yPos);
@@ -90,22 +81,16 @@ namespace BTE_202___2023_Grup_C_Uygulaması
                 e.Effect = DragDropEffects.None;
         }
 
-        private void pictureBox3_DragDrop(object sender, DragEventArgs e)
+        private void panel_DragDrop(object sender, DragEventArgs e)
         {
+            Panel p2 = sender as Panel;
             if ((e.Data.GetDataPresent(DataFormats.Bitmap)))
             {
-                this.pictureBox3.BackgroundImage = (Bitmap)(e.Data.GetData(DataFormats.Bitmap));
-                label1.Text = "Copied bg.Image!";
+                p2.BackgroundImage = (Bitmap)(e.Data.GetData(DataFormats.Bitmap));
+                droppedTag = draggedTag;
+                label1.Text = "Sürüklenen cisim = "+droppedTag;
             }
         }
-
-        //private void pictureBox3_DragDrop(object sender, System.Windows.Forms.DragEventArgs e)
-        //{
-        //    if ((e.Data.GetDataPresent(DataFormats.Bitmap)))
-        //    {
-        //        this.pictureBox3.BackgroundImage = (Bitmap)(e.Data.GetData(DataFormats.Bitmap));
-        //    }
-        //}
 
     }
 }

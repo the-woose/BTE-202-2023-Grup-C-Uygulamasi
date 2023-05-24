@@ -33,14 +33,13 @@
             lblBaslik = new Label();
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
-            pictureBox3 = new PictureBox();
             label1 = new Label();
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             panel1 = new Panel();
+            pictureBox4 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             SuspendLayout();
             // 
             // btnMin
@@ -105,29 +104,20 @@
             pictureBox2.BackgroundImage = Properties.Resources.mito1;
             pictureBox2.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox2.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox2.Location = new Point(307, 133);
+            pictureBox2.Location = new Point(353, 138);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(124, 61);
             pictureBox2.TabIndex = 11;
             pictureBox2.TabStop = false;
+            pictureBox2.Tag = "mitokondri_01";
             pictureBox2.GiveFeedback += picture_GiveFeedback;
             pictureBox2.MouseDown += picture_MouseDown;
             pictureBox2.MouseMove += picture_MouseMove;
             // 
-            // pictureBox3
-            // 
-            pictureBox3.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox3.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox3.Location = new Point(27, 19);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(124, 61);
-            pictureBox3.TabIndex = 11;
-            pictureBox3.TabStop = false;
-            // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(938, 149);
+            label1.Location = new Point(762, 151);
             label1.Name = "label1";
             label1.Size = new Size(38, 15);
             label1.TabIndex = 12;
@@ -136,14 +126,29 @@
             // panel1
             // 
             panel1.AllowDrop = true;
+            panel1.BackgroundImageLayout = ImageLayout.Zoom;
             panel1.BorderStyle = BorderStyle.Fixed3D;
-            panel1.Controls.Add(pictureBox3);
-            panel1.Location = new Point(483, 133);
+            panel1.Location = new Point(583, 118);
             panel1.Name = "panel1";
-            panel1.Size = new Size(231, 106);
+            panel1.Size = new Size(135, 99);
             panel1.TabIndex = 13;
-            panel1.DragDrop += pictureBox3_DragDrop;
+            panel1.DragDrop += panel_DragDrop;
             panel1.DragEnter += picture_DragEnter;
+            // 
+            // pictureBox4
+            // 
+            pictureBox4.BackgroundImage = Properties.Resources.mito3;
+            pictureBox4.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox4.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox4.Location = new Point(353, 219);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(124, 61);
+            pictureBox4.TabIndex = 11;
+            pictureBox4.TabStop = false;
+            pictureBox4.Tag = "mitokondri_02";
+            pictureBox4.GiveFeedback += picture_GiveFeedback;
+            pictureBox4.MouseDown += picture_MouseDown;
+            pictureBox4.MouseMove += picture_MouseMove;
             // 
             // FormEslestir
             // 
@@ -153,6 +158,7 @@
             ClientSize = new Size(1491, 798);
             Controls.Add(panel1);
             Controls.Add(label1);
+            Controls.Add(pictureBox4);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Controls.Add(btnExit);
@@ -164,8 +170,7 @@
             WindowState = FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -177,9 +182,9 @@
         private Label lblBaslik;
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
-        private PictureBox pictureBox3;
         private Label label1;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private Panel panel1;
+        private PictureBox pictureBox4;
     }
 }
