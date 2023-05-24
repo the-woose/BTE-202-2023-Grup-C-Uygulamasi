@@ -85,11 +85,9 @@ namespace BTE_202___2023_Grup_C_Uygulaması
             if (e.Data.GetDataPresent(DataFormats.Bitmap))
             {
                 e.Effect = DragDropEffects.Copy;
-                label1.Text = "Copying!";
             }
             else
                 e.Effect = DragDropEffects.None;
-            label1.Text = "Nothing to copy";
         }
 
         private void pictureBox3_DragDrop(object sender, DragEventArgs e)
@@ -97,6 +95,7 @@ namespace BTE_202___2023_Grup_C_Uygulaması
             if ((e.Data.GetDataPresent(DataFormats.Bitmap)))
             {
                 this.pictureBox3.BackgroundImage = (Bitmap)(e.Data.GetData(DataFormats.Bitmap));
+                label1.Text = "Copied bg.Image!";
             }
         }
 
