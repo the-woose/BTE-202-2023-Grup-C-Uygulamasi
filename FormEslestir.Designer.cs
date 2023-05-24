@@ -32,9 +32,15 @@
             btnExit = new Button();
             lblBaslik = new Label();
             pictureBox1 = new PictureBox();
-            button1 = new Button();
-            button2 = new Button();
+            pictureBox2 = new PictureBox();
+            pictureBox3 = new PictureBox();
+            label1 = new Label();
+            backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            panel1 = new Panel();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // btnMin
@@ -94,47 +100,60 @@
             pictureBox1.TabIndex = 8;
             pictureBox1.TabStop = false;
             // 
-            // button1
+            // pictureBox2
             // 
-            button1.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            button1.BackColor = Color.Green;
-            button1.FlatAppearance.BorderSize = 0;
-            button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            button1.ForeColor = Color.White;
-            button1.Location = new Point(1367, 734);
-            button1.Margin = new Padding(5);
-            button1.MaximumSize = new Size(50, 50);
-            button1.MinimumSize = new Size(50, 50);
-            button1.Name = "button1";
-            button1.Size = new Size(50, 50);
-            button1.TabIndex = 9;
-            button1.Text = "<";
-            button1.UseVisualStyleBackColor = false;
+            pictureBox2.BackgroundImage = Properties.Resources.mito1;
+            pictureBox2.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox2.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox2.Location = new Point(307, 133);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(124, 61);
+            pictureBox2.TabIndex = 11;
+            pictureBox2.TabStop = false;
+            pictureBox2.GiveFeedback += picture_GiveFeedback;
+            pictureBox2.MouseDown += picture_MouseDown;
+            pictureBox2.MouseMove += picture_MouseMove;
             // 
-            // button2
+            // pictureBox3
             // 
-            button2.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            button2.BackColor = Color.Green;
-            button2.FlatAppearance.BorderSize = 0;
-            button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            button2.ForeColor = Color.White;
-            button2.Location = new Point(1427, 734);
-            button2.Margin = new Padding(5);
-            button2.MaximumSize = new Size(50, 50);
-            button2.MinimumSize = new Size(50, 50);
-            button2.Name = "button2";
-            button2.Size = new Size(50, 50);
-            button2.TabIndex = 10;
-            button2.Text = ">";
-            button2.UseVisualStyleBackColor = false;
+            pictureBox3.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox3.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox3.Location = new Point(27, 19);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(124, 61);
+            pictureBox3.TabIndex = 11;
+            pictureBox3.TabStop = false;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(938, 149);
+            label1.Name = "label1";
+            label1.Size = new Size(38, 15);
+            label1.TabIndex = 12;
+            label1.Text = "label1";
+            // 
+            // panel1
+            // 
+            panel1.AllowDrop = true;
+            panel1.BorderStyle = BorderStyle.Fixed3D;
+            panel1.Controls.Add(pictureBox3);
+            panel1.Location = new Point(483, 133);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(231, 106);
+            panel1.TabIndex = 13;
+            panel1.DragDrop += pictureBox3_DragDrop;
+            panel1.DragEnter += picture_DragEnter;
             // 
             // FormEslestir
             // 
+            AllowDrop = true;
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1491, 798);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(panel1);
+            Controls.Add(label1);
+            Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Controls.Add(btnExit);
             Controls.Add(btnMin);
@@ -144,6 +163,9 @@
             Text = "FormEslestir";
             WindowState = FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            panel1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -154,7 +176,10 @@
         private Button btnExit;
         private Label lblBaslik;
         private PictureBox pictureBox1;
-        private Button button1;
-        private Button button2;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox3;
+        private Label label1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private Panel panel1;
     }
 }

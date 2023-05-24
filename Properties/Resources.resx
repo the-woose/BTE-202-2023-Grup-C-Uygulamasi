@@ -124,11 +124,11 @@
   <data name="Menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Images\Menu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ORGANELLER - Kutu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\ORGANELLER - Kutu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="cekirdek1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Images\surukle\cekirdek1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="govde1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Images\surukle\govde1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mito1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Images\surukle\mito1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,8 +139,11 @@
   <data name="govde2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Images\surukle\govde2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ORGANELLER - Kutu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Images\ORGANELLER - Kutu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="govde1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\govde1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="quiz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\quiz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mito3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Images\surukle\mito3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,7 +151,7 @@
   <data name="Image20230424222529" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Images\Image20230424222529.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="quiz" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Images\quiz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="plane" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\plane.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
