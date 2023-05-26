@@ -88,7 +88,7 @@ namespace BTE_202___2023_Grup_C_Uygulaması
             {
                 p2.BackgroundImage = (Bitmap)(e.Data.GetData(DataFormats.Bitmap));
                 droppedTag = draggedTag;
-                label1.Text = "Sürüklenen cisim = "+droppedTag;
+                label1.Text = "Sürüklenen cisim = " + droppedTag;
             }
         }
 

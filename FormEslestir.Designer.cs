@@ -37,6 +37,9 @@
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             panel1 = new Panel();
             pictureBox4 = new PictureBox();
+            panel2 = new Panel();
+            panel3 = new Panel();
+            panel4 = new Panel();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
@@ -104,7 +107,7 @@
             pictureBox2.BackgroundImage = Properties.Resources.mito1;
             pictureBox2.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox2.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox2.Location = new Point(353, 138);
+            pictureBox2.Location = new Point(343, 118);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(124, 61);
             pictureBox2.TabIndex = 11;
@@ -117,7 +120,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(762, 151);
+            label1.Location = new Point(881, 139);
             label1.Name = "label1";
             label1.Size = new Size(38, 15);
             label1.TabIndex = 12;
@@ -128,9 +131,9 @@
             panel1.AllowDrop = true;
             panel1.BackgroundImageLayout = ImageLayout.Zoom;
             panel1.BorderStyle = BorderStyle.Fixed3D;
-            panel1.Location = new Point(583, 118);
+            panel1.Location = new Point(523, 118);
             panel1.Name = "panel1";
-            panel1.Size = new Size(135, 99);
+            panel1.Size = new Size(104, 61);
             panel1.TabIndex = 13;
             panel1.DragDrop += panel_DragDrop;
             panel1.DragEnter += picture_DragEnter;
@@ -140,7 +143,7 @@
             pictureBox4.BackgroundImage = Properties.Resources.mito3;
             pictureBox4.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox4.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox4.Location = new Point(353, 219);
+            pictureBox4.Location = new Point(343, 199);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(124, 61);
             pictureBox4.TabIndex = 11;
@@ -150,12 +153,47 @@
             pictureBox4.MouseDown += picture_MouseDown;
             pictureBox4.MouseMove += picture_MouseMove;
             // 
+            // panel2
+            // 
+            panel2.AllowDrop = true;
+            panel2.BackgroundImageLayout = ImageLayout.Zoom;
+            panel2.BorderStyle = BorderStyle.Fixed3D;
+            panel2.Location = new Point(523, 199);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(104, 61);
+            panel2.TabIndex = 14;
+            panel2.DragDrop += panel_DragDrop;
+            panel2.DragEnter += picture_DragEnter;
+            // 
+            // panel3
+            // 
+            panel3.AllowDrop = true;
+            panel3.BackgroundImageLayout = ImageLayout.Zoom;
+            panel3.BorderStyle = BorderStyle.Fixed3D;
+            panel3.Location = new Point(523, 275);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(104, 61);
+            panel3.TabIndex = 15;
+            // 
+            // panel4
+            // 
+            panel4.AllowDrop = true;
+            panel4.BackgroundImageLayout = ImageLayout.Zoom;
+            panel4.BorderStyle = BorderStyle.Fixed3D;
+            panel4.Location = new Point(523, 355);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(104, 61);
+            panel4.TabIndex = 15;
+            // 
             // FormEslestir
             // 
             AllowDrop = true;
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1491, 798);
+            Controls.Add(panel4);
+            Controls.Add(panel3);
+            Controls.Add(panel2);
             Controls.Add(panel1);
             Controls.Add(label1);
             Controls.Add(pictureBox4);
@@ -186,5 +224,8 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private Panel panel1;
         private PictureBox pictureBox4;
+        private Panel panel2;
+        private Panel panel3;
+        private Panel panel4;
     }
 }

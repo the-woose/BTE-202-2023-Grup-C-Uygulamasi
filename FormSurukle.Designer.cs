@@ -31,18 +31,30 @@
             lblBaslik = new Label();
             btnExit = new Button();
             btnMin = new Button();
-            pictureBox1 = new PictureBox();
-            pictureBox2 = new PictureBox();
-            pictureBox3 = new PictureBox();
-            pictureBox4 = new PictureBox();
-            pictureBox5 = new PictureBox();
-            pictureBox6 = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
+            pictureCekirdek1 = new PictureBox();
+            pictureMito4 = new PictureBox();
+            pictureMito3 = new PictureBox();
+            pictureMito2 = new PictureBox();
+            panelBitki = new Panel();
+            pictureCekird1 = new PictureBox();
+            pictureMito1 = new PictureBox();
+            panel1 = new Panel();
+            pictureMito6 = new PictureBox();
+            pictureCekird2 = new PictureBox();
+            pictureMito5 = new PictureBox();
+            pictureMito7 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureCekirdek1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureMito4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureMito3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureMito2).BeginInit();
+            panelBitki.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureCekird1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureMito1).BeginInit();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureMito6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureCekird2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureMito5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureMito7).BeginInit();
             SuspendLayout();
             // 
             // lblBaslik
@@ -51,7 +63,7 @@
             lblBaslik.Font = new Font("Segoe UI", 30F, FontStyle.Regular, GraphicsUnit.Point);
             lblBaslik.Location = new Point(0, 0);
             lblBaslik.Name = "lblBaslik";
-            lblBaslik.Size = new Size(990, 76);
+            lblBaslik.Size = new Size(1427, 76);
             lblBaslik.TabIndex = 8;
             lblBaslik.Text = "Organelleri Sürükle";
             lblBaslik.TextAlign = ContentAlignment.MiddleCenter;
@@ -63,7 +75,7 @@
             btnExit.FlatAppearance.BorderSize = 0;
             btnExit.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnExit.ForeColor = Color.White;
-            btnExit.Location = new Point(926, 14);
+            btnExit.Location = new Point(1363, 14);
             btnExit.Margin = new Padding(5);
             btnExit.MaximumSize = new Size(50, 50);
             btnExit.MinimumSize = new Size(50, 50);
@@ -81,7 +93,7 @@
             btnMin.FlatAppearance.BorderSize = 0;
             btnMin.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnMin.ForeColor = Color.White;
-            btnMin.Location = new Point(866, 14);
+            btnMin.Location = new Point(1303, 14);
             btnMin.Margin = new Padding(5);
             btnMin.MaximumSize = new Size(50, 50);
             btnMin.MinimumSize = new Size(50, 50);
@@ -92,83 +104,186 @@
             btnMin.UseVisualStyleBackColor = false;
             btnMin.Click += btnMin_Click;
             // 
-            // pictureBox1
+            // pictureCekirdek1
             // 
-            pictureBox1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            pictureBox1.BackgroundImageLayout = ImageLayout.None;
-            pictureBox1.Image = Properties.Resources.govde1;
-            pictureBox1.Location = new Point(38, 132);
-            pictureBox1.MaximumSize = new Size(542, 782);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(244, 402);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 11;
-            pictureBox1.TabStop = false;
+            pictureCekirdek1.BackgroundImage = Properties.Resources.cekirdek1;
+            pictureCekirdek1.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureCekirdek1.Location = new Point(703, 178);
+            pictureCekirdek1.Name = "pictureCekirdek1";
+            pictureCekirdek1.Size = new Size(66, 89);
+            pictureCekirdek1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureCekirdek1.TabIndex = 12;
+            pictureCekirdek1.TabStop = false;
+            pictureCekirdek1.Tag = "Cekirdek";
+            pictureCekirdek1.GiveFeedback += picture_GiveFeedback;
+            pictureCekirdek1.MouseDown += picture_MouseDown;
+            pictureCekirdek1.MouseMove += picture_MouseMove;
             // 
-            // pictureBox2
+            // pictureMito4
             // 
-            pictureBox2.Image = Properties.Resources.cekirdek1;
-            pictureBox2.Location = new Point(435, 162);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(88, 90);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 12;
-            pictureBox2.TabStop = false;
+            pictureMito4.BackColor = Color.Lime;
+            pictureMito4.BackgroundImage = Properties.Resources.mito1;
+            pictureMito4.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureMito4.Location = new Point(63, 414);
+            pictureMito4.Name = "pictureMito4";
+            pictureMito4.Size = new Size(94, 64);
+            pictureMito4.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureMito4.TabIndex = 14;
+            pictureMito4.TabStop = false;
+            pictureMito4.Visible = false;
             // 
-            // pictureBox3
+            // pictureMito3
             // 
-            pictureBox3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
-            pictureBox3.BackgroundImageLayout = ImageLayout.None;
-            pictureBox3.Image = Properties.Resources.govde2;
-            pictureBox3.Location = new Point(705, 143);
-            pictureBox3.MaximumSize = new Size(542, 782);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(271, 391);
-            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox3.TabIndex = 13;
-            pictureBox3.TabStop = false;
+            pictureMito3.BackColor = Color.Lime;
+            pictureMito3.BackgroundImage = Properties.Resources.mito2;
+            pictureMito3.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureMito3.Location = new Point(187, 318);
+            pictureMito3.Name = "pictureMito3";
+            pictureMito3.Size = new Size(82, 87);
+            pictureMito3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureMito3.TabIndex = 15;
+            pictureMito3.TabStop = false;
+            pictureMito3.Visible = false;
             // 
-            // pictureBox4
+            // pictureMito2
             // 
-            pictureBox4.Image = Properties.Resources.mito1;
-            pictureBox4.Location = new Point(469, 511);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(94, 72);
-            pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox4.TabIndex = 14;
-            pictureBox4.TabStop = false;
+            pictureMito2.BackColor = Color.Lime;
+            pictureMito2.BackgroundImage = Properties.Resources.mito3;
+            pictureMito2.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureMito2.Location = new Point(187, 72);
+            pictureMito2.Name = "pictureMito2";
+            pictureMito2.Size = new Size(82, 74);
+            pictureMito2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureMito2.TabIndex = 16;
+            pictureMito2.TabStop = false;
+            pictureMito2.Visible = false;
             // 
-            // pictureBox5
+            // panelBitki
             // 
-            pictureBox5.Image = Properties.Resources.mito2;
-            pictureBox5.Location = new Point(409, 418);
-            pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(82, 87);
-            pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox5.TabIndex = 15;
-            pictureBox5.TabStop = false;
+            panelBitki.AllowDrop = true;
+            panelBitki.Anchor = AnchorStyles.Left;
+            panelBitki.BackgroundImage = Properties.Resources.govde1;
+            panelBitki.BackgroundImageLayout = ImageLayout.Zoom;
+            panelBitki.BorderStyle = BorderStyle.Fixed3D;
+            panelBitki.Controls.Add(pictureCekird1);
+            panelBitki.Controls.Add(pictureMito3);
+            panelBitki.Controls.Add(pictureMito2);
+            panelBitki.Controls.Add(pictureMito4);
+            panelBitki.Location = new Point(21, 100);
+            panelBitki.Name = "panelBitki";
+            panelBitki.Size = new Size(350, 539);
+            panelBitki.TabIndex = 17;
+            panelBitki.DragDrop += panel_DragDro;
+            panelBitki.DragEnter += picture_DragEnter;
             // 
-            // pictureBox6
+            // pictureCekird1
             // 
-            pictureBox6.Image = Properties.Resources.mito3;
-            pictureBox6.Location = new Point(523, 418);
-            pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(86, 74);
-            pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox6.TabIndex = 16;
-            pictureBox6.TabStop = false;
+            pictureCekird1.BackColor = Color.PaleGreen;
+            pictureCekird1.BackgroundImage = Properties.Resources.cekirdek1;
+            pictureCekird1.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureCekird1.Location = new Point(145, 201);
+            pictureCekird1.Name = "pictureCekird1";
+            pictureCekird1.Size = new Size(68, 90);
+            pictureCekird1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureCekird1.TabIndex = 18;
+            pictureCekird1.TabStop = false;
+            pictureCekird1.Visible = false;
+            // 
+            // pictureMito1
+            // 
+            pictureMito1.BackgroundImage = Properties.Resources.mito2;
+            pictureMito1.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureMito1.Location = new Point(684, 325);
+            pictureMito1.Name = "pictureMito1";
+            pictureMito1.Size = new Size(72, 84);
+            pictureMito1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureMito1.TabIndex = 19;
+            pictureMito1.TabStop = false;
+            pictureMito1.Tag = "Mitokondri";
+            pictureMito1.GiveFeedback += picture_GiveFeedback;
+            pictureMito1.MouseDown += picture_MouseDown;
+            pictureMito1.MouseMove += picture_MouseMove;
+            // 
+            // panel1
+            // 
+            panel1.AllowDrop = true;
+            panel1.Anchor = AnchorStyles.Right;
+            panel1.BackgroundImage = Properties.Resources.govde2;
+            panel1.BackgroundImageLayout = ImageLayout.Stretch;
+            panel1.BorderStyle = BorderStyle.Fixed3D;
+            panel1.Controls.Add(pictureMito6);
+            panel1.Controls.Add(pictureCekird2);
+            panel1.Controls.Add(pictureMito5);
+            panel1.Controls.Add(pictureMito7);
+            panel1.Location = new Point(1044, 100);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(350, 539);
+            panel1.TabIndex = 20;
+            panel1.DragDrop += panel_DragDrop;
+            panel1.DragEnter += picture_DragEnter;
+            // 
+            // pictureMito6
+            // 
+            pictureMito6.BackColor = Color.Lime;
+            pictureMito6.BackgroundImage = Properties.Resources.mito2;
+            pictureMito6.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureMito6.Location = new Point(187, 314);
+            pictureMito6.Name = "pictureMito6";
+            pictureMito6.Size = new Size(82, 87);
+            pictureMito6.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureMito6.TabIndex = 19;
+            pictureMito6.TabStop = false;
+            pictureMito6.Visible = false;
+            // 
+            // pictureCekird2
+            // 
+            pictureCekird2.BackColor = Color.PaleGreen;
+            pictureCekird2.BackgroundImage = Properties.Resources.cekirdek1;
+            pictureCekird2.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureCekird2.Location = new Point(115, 201);
+            pictureCekird2.Name = "pictureCekird2";
+            pictureCekird2.Size = new Size(68, 90);
+            pictureCekird2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureCekird2.TabIndex = 18;
+            pictureCekird2.TabStop = false;
+            pictureCekird2.Visible = false;
+            // 
+            // pictureMito5
+            // 
+            pictureMito5.BackColor = Color.Lime;
+            pictureMito5.BackgroundImage = Properties.Resources.mito3;
+            pictureMito5.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureMito5.Location = new Point(187, 72);
+            pictureMito5.Name = "pictureMito5";
+            pictureMito5.Size = new Size(82, 74);
+            pictureMito5.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureMito5.TabIndex = 16;
+            pictureMito5.TabStop = false;
+            pictureMito5.Visible = false;
+            // 
+            // pictureMito7
+            // 
+            pictureMito7.BackColor = Color.Lime;
+            pictureMito7.BackgroundImage = Properties.Resources.mito1;
+            pictureMito7.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureMito7.Location = new Point(63, 414);
+            pictureMito7.Name = "pictureMito7";
+            pictureMito7.Size = new Size(94, 64);
+            pictureMito7.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureMito7.TabIndex = 14;
+            pictureMito7.TabStop = false;
+            pictureMito7.Visible = false;
             // 
             // FormSurukle
             // 
+            AllowDrop = true;
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(990, 642);
-            Controls.Add(pictureBox6);
-            Controls.Add(pictureBox5);
-            Controls.Add(pictureBox4);
-            Controls.Add(pictureBox3);
-            Controls.Add(pictureBox2);
-            Controls.Add(pictureBox1);
+            ClientSize = new Size(1427, 716);
+            Controls.Add(panel1);
+            Controls.Add(pictureMito1);
+            Controls.Add(panelBitki);
+            Controls.Add(pictureCekirdek1);
             Controls.Add(btnExit);
             Controls.Add(btnMin);
             Controls.Add(lblBaslik);
@@ -176,12 +291,18 @@
             Name = "FormSurukle";
             Text = "FormSurukle";
             WindowState = FormWindowState.Maximized;
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureCekirdek1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureMito4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureMito3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureMito2).EndInit();
+            panelBitki.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureCekird1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureMito1).EndInit();
+            panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureMito6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureCekird2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureMito5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureMito7).EndInit();
             ResumeLayout(false);
         }
 
@@ -190,11 +311,20 @@
         private Label lblBaslik;
         private Button btnExit;
         private Button btnMin;
+        private PictureBox pictureCekirdek1;
+        private PictureBox pictureMito4;
+        private PictureBox pictureMito3;
+        private PictureBox pictureMito2;
+        private Panel panelBitki;
+        private PictureBox pictureCekird1;
+        private PictureBox pictureMito1;
+        private Panel panel1;
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
-        private PictureBox pictureBox3;
         private PictureBox pictureBox4;
-        private PictureBox pictureBox5;
-        private PictureBox pictureBox6;
+        private PictureBox pictureMito7;
+        private PictureBox pictureCekird2;
+        private PictureBox pictureMito5;
+        private PictureBox pictureMito6;
     }
 }
