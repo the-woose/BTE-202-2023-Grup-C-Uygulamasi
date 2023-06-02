@@ -28,9 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            lblBaslik = new Label();
-            btnExit = new Button();
-            btnMin = new Button();
             pictureCekirdek1 = new PictureBox();
             pictureMito4 = new PictureBox();
             pictureMito3 = new PictureBox();
@@ -43,6 +40,9 @@
             pictureCekird2 = new PictureBox();
             pictureMito5 = new PictureBox();
             pictureMito7 = new PictureBox();
+            btnKapat = new RoundedButton();
+            btnKucult = new RoundedButton();
+            lblFormBaslik = new RoundedButton();
             ((System.ComponentModel.ISupportInitialize)pictureCekirdek1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureMito4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureMito3).BeginInit();
@@ -56,53 +56,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureMito5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureMito7).BeginInit();
             SuspendLayout();
-            // 
-            // lblBaslik
-            // 
-            lblBaslik.Dock = DockStyle.Top;
-            lblBaslik.Font = new Font("Segoe UI", 30F, FontStyle.Regular, GraphicsUnit.Point);
-            lblBaslik.Location = new Point(0, 0);
-            lblBaslik.Name = "lblBaslik";
-            lblBaslik.Size = new Size(1427, 76);
-            lblBaslik.TabIndex = 8;
-            lblBaslik.Text = "Organelleri Sürükle";
-            lblBaslik.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // btnExit
-            // 
-            btnExit.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            btnExit.BackColor = Color.Red;
-            btnExit.FlatAppearance.BorderSize = 0;
-            btnExit.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            btnExit.ForeColor = Color.White;
-            btnExit.Location = new Point(1363, 14);
-            btnExit.Margin = new Padding(5);
-            btnExit.MaximumSize = new Size(50, 50);
-            btnExit.MinimumSize = new Size(50, 50);
-            btnExit.Name = "btnExit";
-            btnExit.Size = new Size(50, 50);
-            btnExit.TabIndex = 9;
-            btnExit.Text = "X";
-            btnExit.UseVisualStyleBackColor = false;
-            btnExit.Click += btnExit_Click;
-            // 
-            // btnMin
-            // 
-            btnMin.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            btnMin.BackColor = Color.DarkTurquoise;
-            btnMin.FlatAppearance.BorderSize = 0;
-            btnMin.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            btnMin.ForeColor = Color.White;
-            btnMin.Location = new Point(1303, 14);
-            btnMin.Margin = new Padding(5);
-            btnMin.MaximumSize = new Size(50, 50);
-            btnMin.MinimumSize = new Size(50, 50);
-            btnMin.Name = "btnMin";
-            btnMin.Size = new Size(50, 50);
-            btnMin.TabIndex = 10;
-            btnMin.Text = "__";
-            btnMin.UseVisualStyleBackColor = false;
-            btnMin.Click += btnMin_Click;
             // 
             // pictureCekirdek1
             // 
@@ -274,19 +227,77 @@
             pictureMito7.TabStop = false;
             pictureMito7.Visible = false;
             // 
+            // btnKapat
+            // 
+            btnKapat.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnKapat.BorderColor = Color.Red;
+            btnKapat.BorderSize = 4;
+            btnKapat.ControlText = "\r\nX";
+            btnKapat.FillColor = Color.White;
+            btnKapat.FlatAppearance.BorderSize = 0;
+            btnKapat.FlatStyle = FlatStyle.Flat;
+            btnKapat.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point);
+            btnKapat.ForeColor = Color.Red;
+            btnKapat.Location = new Point(1280, -46);
+            btnKapat.Name = "btnKapat";
+            btnKapat.Radius = 50;
+            btnKapat.Size = new Size(100, 110);
+            btnKapat.TabIndex = 21;
+            btnKapat.Text = "\r\nX";
+            btnKapat.Click += btnKapat_Click;
+            // 
+            // btnKucult
+            // 
+            btnKucult.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnKucult.BorderColor = Color.DarkTurquoise;
+            btnKucult.BorderSize = 4;
+            btnKucult.ControlText = "\r\n-";
+            btnKucult.FillColor = Color.White;
+            btnKucult.FlatAppearance.BorderSize = 0;
+            btnKucult.FlatStyle = FlatStyle.Flat;
+            btnKucult.Font = new Font("Fira Code SemiBold", 23.9999962F, FontStyle.Bold, GraphicsUnit.Point);
+            btnKucult.ForeColor = Color.DarkTurquoise;
+            btnKucult.Location = new Point(1161, -46);
+            btnKucult.Name = "btnKucult";
+            btnKucult.Radius = 50;
+            btnKucult.Size = new Size(100, 110);
+            btnKucult.TabIndex = 21;
+            btnKucult.Text = "\r\n-";
+            btnKucult.Click += btnKucult_Click;
+            // 
+            // lblFormBaslik
+            // 
+            lblFormBaslik.Anchor = AnchorStyles.Top;
+            lblFormBaslik.BorderColor = Color.Empty;
+            lblFormBaslik.BorderSize = 0;
+            lblFormBaslik.ControlText = "\r\nOrganelleri Sürükle";
+            lblFormBaslik.Enabled = false;
+            lblFormBaslik.FillColor = Color.DarkOrange;
+            lblFormBaslik.FlatAppearance.BorderSize = 0;
+            lblFormBaslik.FlatStyle = FlatStyle.Flat;
+            lblFormBaslik.Font = new Font("Segoe UI", 30F, FontStyle.Bold, GraphicsUnit.Point);
+            lblFormBaslik.ForeColor = Color.White;
+            lblFormBaslik.Location = new Point(486, -67);
+            lblFormBaslik.Name = "lblFormBaslik";
+            lblFormBaslik.Radius = 50;
+            lblFormBaslik.Size = new Size(456, 148);
+            lblFormBaslik.TabIndex = 25;
+            lblFormBaslik.Text = "\r\nOrganelleri Sürükle";
+            // 
             // FormSurukle
             // 
             AllowDrop = true;
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(255, 219, 177);
             ClientSize = new Size(1427, 716);
+            Controls.Add(lblFormBaslik);
+            Controls.Add(btnKucult);
+            Controls.Add(btnKapat);
             Controls.Add(panel1);
             Controls.Add(pictureMito1);
             Controls.Add(panelBitki);
             Controls.Add(pictureCekirdek1);
-            Controls.Add(btnExit);
-            Controls.Add(btnMin);
-            Controls.Add(lblBaslik);
             FormBorderStyle = FormBorderStyle.None;
             Name = "FormSurukle";
             Text = "FormSurukle";
@@ -307,10 +318,6 @@
         }
 
         #endregion
-
-        private Label lblBaslik;
-        private Button btnExit;
-        private Button btnMin;
         private PictureBox pictureCekirdek1;
         private PictureBox pictureMito4;
         private PictureBox pictureMito3;
@@ -326,5 +333,8 @@
         private PictureBox pictureCekird2;
         private PictureBox pictureMito5;
         private PictureBox pictureMito6;
+        private RoundedButton btnKapat;
+        private RoundedButton btnKucult;
+        private RoundedButton lblFormBaslik;
     }
 }

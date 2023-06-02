@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Reflection.Emit;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -17,6 +19,7 @@ namespace BTE_202___2023_Grup_C_Uygulaması
         string droppedTag = string.Empty;
         private int xPos;
         private int yPos;
+
         public FormSurukle()
         {
             InitializeComponent();
@@ -25,6 +28,14 @@ namespace BTE_202___2023_Grup_C_Uygulaması
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+        private void btnKapat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+        private void btnKucult_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
 
         private void btnMin_Click(object sender, EventArgs e)
@@ -113,5 +124,6 @@ namespace BTE_202___2023_Grup_C_Uygulaması
                 pictureMito7.Visible = true;
             }
         }
+
     }
 }

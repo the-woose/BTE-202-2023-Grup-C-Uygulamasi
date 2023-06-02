@@ -30,7 +30,6 @@
         {
             btnMin = new Button();
             btnExit = new Button();
-            lblBaslik = new Label();
             pictureBox1 = new PictureBox();
             lblSoruBaslik = new Label();
             panel1 = new Panel();
@@ -44,7 +43,11 @@
             lblCvp3 = new RadioButton();
             lblCvp2 = new RadioButton();
             lblCvp1 = new RadioButton();
+            textSoruContainer = new RoundedButton();
             panel2 = new Panel();
+            btnKucult = new RoundedButton();
+            btnKapat = new RoundedButton();
+            lblFormBaslik = new RoundedButton();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
@@ -86,22 +89,11 @@
             btnExit.UseVisualStyleBackColor = false;
             btnExit.Click += btnExit_Click;
             // 
-            // lblBaslik
-            // 
-            lblBaslik.Dock = DockStyle.Top;
-            lblBaslik.Font = new Font("Segoe UI", 30F, FontStyle.Regular, GraphicsUnit.Point);
-            lblBaslik.Location = new Point(0, 0);
-            lblBaslik.Name = "lblBaslik";
-            lblBaslik.Size = new Size(1414, 80);
-            lblBaslik.TabIndex = 8;
-            lblBaslik.Text = "Quiz";
-            lblBaslik.TextAlign = ContentAlignment.MiddleCenter;
-            // 
             // pictureBox1
             // 
             pictureBox1.Anchor = AnchorStyles.Top;
             pictureBox1.Image = Properties.Resources.quiz;
-            pictureBox1.Location = new Point(502, 12);
+            pictureBox1.Location = new Point(510, 103);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(400, 400);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -132,6 +124,7 @@
             panel1.Controls.Add(lblCvp2);
             panel1.Controls.Add(lblCvp1);
             panel1.Controls.Add(lblSoruBaslik);
+            panel1.Controls.Add(textSoruContainer);
             panel1.Dock = DockStyle.Bottom;
             panel1.Location = new Point(0, 309);
             panel1.Name = "panel1";
@@ -152,11 +145,12 @@
             // textSoru
             // 
             textSoru.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            textSoru.BorderStyle = BorderStyle.None;
             textSoru.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
-            textSoru.Location = new Point(124, 13);
+            textSoru.Location = new Point(128, 13);
             textSoru.Multiline = true;
             textSoru.Name = "textSoru";
-            textSoru.Size = new Size(1278, 232);
+            textSoru.Size = new Size(1156, 232);
             textSoru.TabIndex = 15;
             // 
             // button2
@@ -273,25 +267,103 @@
             lblCvp1.Text = "A";
             lblCvp1.UseVisualStyleBackColor = true;
             // 
+            // textSoruContainer
+            // 
+            textSoruContainer.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            textSoruContainer.BorderColor = Color.Empty;
+            textSoruContainer.BorderSize = 0;
+            textSoruContainer.ControlText = "";
+            textSoruContainer.Enabled = false;
+            textSoruContainer.FillColor = Color.White;
+            textSoruContainer.FlatAppearance.BorderSize = 0;
+            textSoruContainer.FlatStyle = FlatStyle.Flat;
+            textSoruContainer.Font = new Font("Segoe UI", 30F, FontStyle.Bold, GraphicsUnit.Point);
+            textSoruContainer.ForeColor = Color.White;
+            textSoruContainer.Location = new Point(116, 3);
+            textSoruContainer.Name = "textSoruContainer";
+            textSoruContainer.Radius = 50;
+            textSoruContainer.Size = new Size(1178, 253);
+            textSoruContainer.TabIndex = 27;
+            // 
             // panel2
             // 
+            panel2.Controls.Add(btnKucult);
+            panel2.Controls.Add(btnKapat);
+            panel2.Controls.Add(lblFormBaslik);
             panel2.Controls.Add(pictureBox1);
             panel2.Dock = DockStyle.Fill;
-            panel2.Location = new Point(0, 80);
+            panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(1414, 229);
+            panel2.Size = new Size(1414, 309);
             panel2.TabIndex = 13;
+            // 
+            // btnKucult
+            // 
+            btnKucult.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnKucult.BorderColor = Color.DarkTurquoise;
+            btnKucult.BorderSize = 4;
+            btnKucult.ControlText = "\r\n-";
+            btnKucult.FillColor = Color.White;
+            btnKucult.FlatAppearance.BorderSize = 0;
+            btnKucult.FlatStyle = FlatStyle.Flat;
+            btnKucult.Font = new Font("Fira Code SemiBold", 23.9999962F, FontStyle.Bold, GraphicsUnit.Point);
+            btnKucult.ForeColor = Color.DarkTurquoise;
+            btnKucult.Location = new Point(1160, -46);
+            btnKucult.Name = "btnKucult";
+            btnKucult.Radius = 50;
+            btnKucult.Size = new Size(100, 110);
+            btnKucult.TabIndex = 27;
+            btnKucult.Text = "\r\n-";
+            btnKucult.Click += btnMin_Click;
+            // 
+            // btnKapat
+            // 
+            btnKapat.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnKapat.BorderColor = Color.Red;
+            btnKapat.BorderSize = 4;
+            btnKapat.ControlText = "\r\nX";
+            btnKapat.FillColor = Color.White;
+            btnKapat.FlatAppearance.BorderSize = 0;
+            btnKapat.FlatStyle = FlatStyle.Flat;
+            btnKapat.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point);
+            btnKapat.ForeColor = Color.Red;
+            btnKapat.Location = new Point(1279, -46);
+            btnKapat.Name = "btnKapat";
+            btnKapat.Radius = 50;
+            btnKapat.Size = new Size(100, 110);
+            btnKapat.TabIndex = 28;
+            btnKapat.Text = "\r\nX";
+            btnKapat.Click += btnExit_Click;
+            // 
+            // lblFormBaslik
+            // 
+            lblFormBaslik.Anchor = AnchorStyles.Top;
+            lblFormBaslik.BorderColor = Color.Empty;
+            lblFormBaslik.BorderSize = 0;
+            lblFormBaslik.ControlText = "\r\nQuiz";
+            lblFormBaslik.Enabled = false;
+            lblFormBaslik.FillColor = Color.Indigo;
+            lblFormBaslik.FlatAppearance.BorderSize = 0;
+            lblFormBaslik.FlatStyle = FlatStyle.Flat;
+            lblFormBaslik.Font = new Font("Segoe UI", 30F, FontStyle.Bold, GraphicsUnit.Point);
+            lblFormBaslik.ForeColor = Color.White;
+            lblFormBaslik.Location = new Point(479, -70);
+            lblFormBaslik.Name = "lblFormBaslik";
+            lblFormBaslik.Radius = 50;
+            lblFormBaslik.Size = new Size(456, 148);
+            lblFormBaslik.TabIndex = 26;
+            lblFormBaslik.Text = "\r\nQuiz";
             // 
             // FormQuiz
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(130, 148, 196);
             ClientSize = new Size(1414, 849);
             Controls.Add(panel2);
             Controls.Add(panel1);
             Controls.Add(btnMin);
             Controls.Add(btnExit);
-            Controls.Add(lblBaslik);
             FormBorderStyle = FormBorderStyle.None;
             Name = "FormQuiz";
             Text = "FormQuiz";
@@ -307,7 +379,6 @@
 
         private Button btnMin;
         private Button btnExit;
-        private Label lblBaslik;
         private PictureBox pictureBox1;
         private Label lblSoruBaslik;
         private Panel panel1;
@@ -322,5 +393,9 @@
         private TextBox textSoru;
         private Button buttonKontrol;
         private Label labelCevap;
+        private RoundedButton lblFormBaslik;
+        private RoundedButton btnKucult;
+        private RoundedButton btnKapat;
+        private RoundedButton textSoruContainer;
     }
 }
