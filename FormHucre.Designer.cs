@@ -37,6 +37,8 @@
             btnKucult = new RoundedButton();
             btnKapat = new RoundedButton();
             lblFormBaslik = new RoundedButton();
+            button2 = new Button();
+            button3 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -151,12 +153,34 @@
             lblFormBaslik.TabIndex = 31;
             lblFormBaslik.Text = "\r\nHayvan ve Bitki Hücreleri";
             // 
+            // button2
+            // 
+            button2.Location = new Point(588, 481);
+            button2.Name = "button2";
+            button2.Size = new Size(75, 23);
+            button2.TabIndex = 34;
+            button2.Text = "button2";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(588, 510);
+            button3.Name = "button3";
+            button3.Size = new Size(75, 23);
+            button3.TabIndex = 34;
+            button3.Text = "button3";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
             // FormHucre
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(247, 237, 219);
             ClientSize = new Size(1486, 801);
+            Controls.Add(button3);
+            Controls.Add(button2);
             Controls.Add(btnKucult);
             Controls.Add(btnKapat);
             Controls.Add(lblFormBaslik);
@@ -184,5 +208,7 @@
         private RoundedButton btnKucult;
         private RoundedButton btnKapat;
         private RoundedButton lblFormBaslik;
+        private Button button2;
+        private Button button3;
     }
 }

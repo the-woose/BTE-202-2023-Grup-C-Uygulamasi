@@ -14,9 +14,69 @@ namespace BTE_202___2023_Grup_C_Uygulaması
 {
     public partial class FormHucre : Form
     {
+        private System.Windows.Forms.Timer zoomInTimer;
+        private System.Windows.Forms.Timer zoomOutTimer;
+        private int zoomLevel = 1;
+        private int zoomstate = 0;
+        private const int ZoomIncrement = 35;
+        private const int MaxZoomLevel = 14;
         public FormHucre()
         {
             InitializeComponent();
+            zoomInTimer = new System.Windows.Forms.Timer();
+            zoomInTimer.Interval = 50; // Change the interval to control zoom speed
+            zoomInTimer.Tick += ZoomInTimer_Tick;
+            zoomOutTimer = new System.Windows.Forms.Timer();
+            zoomOutTimer.Interval = 50; // Change the interval to control zoom speed
+            zoomOutTimer.Tick += ZoomOutTimer_Tick;
+        }
+
+        private void ZoomInTimer_Tick(object sender, EventArgs e)
+        {
+            if (zoomLevel < MaxZoomLevel && zoomLevel >= 1)
+            {
+                ZoomPictureBox(1);
+                zoomstate = 1;
+            }
+            else
+            {
+                zoomInTimer.Stop();
+                zoomLevel = 1;
+            }
+        }
+
+        private void ZoomOutTimer_Tick(object sender, EventArgs e)
+        {
+            if (zoomLevel > 1 && zoomLevel <= MaxZoomLevel)
+            {
+                ZoomPictureBox(2);
+                zoomstate = 0;
+            }
+            else
+            {
+                zoomOutTimer.Stop();
+                zoomLevel = MaxZoomLevel;
+            }
+        }
+
+        private void ZoomPictureBox(int zoomInOutType)
+        {
+            if(zoomInOutType == 1)
+            {
+            
+                pictureBox2.Width += ZoomIncrement;
+                pictureBox2.Height += ZoomIncrement;
+                ++zoomLevel;
+                pictureBox2.Location = new System.Drawing.Point(pictureBox2.Location.X - ZoomIncrement, pictureBox2.Location.Y - ZoomIncrement);
+
+            }
+            else if (zoomInOutType == 2)
+            {
+                pictureBox2.Width -= ZoomIncrement;
+                pictureBox2.Height -= ZoomIncrement;
+                --zoomLevel;
+                pictureBox2.Location = new System.Drawing.Point(pictureBox2.Location.X + ZoomIncrement, pictureBox2.Location.Y + ZoomIncrement);
+            }
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -40,11 +100,38 @@ namespace BTE_202___2023_Grup_C_Uygulaması
             textCevap.Text = konular[rastgeleSayi].tanim.ToString();
         }
 
+
+
         class Konular
         {
             public int itemID { get; set; }
             public string cisim { get; set; }
             public string tanim { get; set; }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (zoomstate == 0) {
+                zoomInTimer.Start();
+                //zoomstate = 1;
+            }
+            //if (zoomLevel == MaxZoomLevel)
+            //{
+            //    zoomTimer.Stop();
+            //}
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (zoomstate == 1)
+            {
+                zoomOutTimer.Start();
+                //zoomstate = 0;
+            }
+            //if (zoomLevel <= MaxZoomLevel)
+            //{
+            //    zoomTimer.Stop();
+            //}
         }
     }
 }

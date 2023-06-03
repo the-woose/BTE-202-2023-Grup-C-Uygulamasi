@@ -35,7 +35,6 @@ namespace BTE_202___2023_Grup_C_Uygulaması
         {
             Random rastgele = new Random();
             int rastgeleSayi = rastgele.Next(0, 30);
-            //string soruDosyasi = File.ReadAllText("./Assets/sorular.json");
             List<Sorular> sorular = JsonConvert.DeserializeObject<List<Sorular>>(soruDosyasi);
             textSoru.Text = sorular[rastgeleSayi].soru.ToString();
             List<string> cevapListesi = new List<string>()

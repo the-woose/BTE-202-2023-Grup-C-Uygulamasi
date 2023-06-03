@@ -37,33 +37,11 @@ namespace BTE_202___2023_Grup_C_Uygulaması
             FormHucre frm0 = new FormHucre();
             frm0.Show();
         }
-        private void btnHucre_MouseHover(object sender, EventArgs e)
-        {
-            btnHucre.FillColor = Color.White;
-            btnHucre.ForeColor = Color.Turquoise;
-        }
-
-        private void btnHucre_MouseLeave(object sender, EventArgs e)
-        {
-            btnHucre.FillColor = Color.Turquoise;
-            btnHucre.ForeColor = Color.White;
-        }
 
         private void btnQuiz_Click(object sender, EventArgs e)
         {
             FormQuiz frm1 = new FormQuiz();
             frm1.Show();
-        }
-        private void btnQuiz_MouseHover(object sender, EventArgs e)
-        {
-            btnQuiz.FillColor = Color.White;
-            btnQuiz.ForeColor = Color.Turquoise;
-        }
-
-        private void btnQuiz_MouseLeave(object sender, EventArgs e)
-        {
-            btnQuiz.FillColor = Color.Turquoise;
-            btnQuiz.ForeColor = Color.White;
         }
 
         private void btnSurukle_Click(object sender, EventArgs e)
@@ -71,33 +49,31 @@ namespace BTE_202___2023_Grup_C_Uygulaması
             FormSurukle frm2 = new FormSurukle();
             frm2.Show();
         }
-        private void btnSurukle_MouseHover(object sender, EventArgs e)
-        {
-            btnSurukle.FillColor = Color.White;
-            btnSurukle.ForeColor = Color.Turquoise;
-        }
-        private void btnSurukle_MouseLeave(object sender, EventArgs e)
-        {
-            btnSurukle.FillColor = Color.Turquoise;
-            btnSurukle.ForeColor = Color.White;
-        }
 
         private void btnEslestir_Click(object sender, EventArgs e)
         {
             FormEslestir frm3 = new FormEslestir();
             frm3.Show();
         }
-        private void btnEslestir_MouseHover(object sender, EventArgs e)
+
+        private void btn_MouseHover(object sender, EventArgs e)
         {
-            btnEslestir.FillColor = Color.White;
-            btnEslestir.ForeColor = Color.Turquoise;
+            var roundedbutton = sender as RoundedButton;
+            if (roundedbutton != null)
+            {
+                roundedbutton.ForeColor = Color.Turquoise;
+                roundedbutton.FillColor = Color.White;
+            }
         }
 
-        private void btnEslestir_MouseLeave(object sender, EventArgs e)
+        private void btn_MouseLeave(object sender, EventArgs e)
         {
-            btnEslestir.FillColor = Color.Turquoise;
-            btnEslestir.ForeColor = Color.White;
+            var roundedbutton = sender as RoundedButton;
+            if (roundedbutton != null)
+            {
+                roundedbutton.ForeColor = Color.White;
+                roundedbutton.FillColor = Color.Turquoise;
+            }
         }
-
     }
 }

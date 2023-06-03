@@ -93,8 +93,8 @@
             btnEslestir.TabIndex = 24;
             btnEslestir.Text = "Eşleştir";
             btnEslestir.Click += btnEslestir_Click;
-            btnEslestir.MouseLeave += btnEslestir_MouseLeave;
-            btnEslestir.MouseHover += btnEslestir_MouseHover;
+            btnEslestir.MouseLeave += btn_MouseLeave;
+            btnEslestir.MouseHover += btn_MouseHover;
             // 
             // btnSurukle
             // 
@@ -113,8 +113,8 @@
             btnSurukle.TabIndex = 24;
             btnSurukle.Text = "Sürükle-Bırak";
             btnSurukle.Click += btnSurukle_Click;
-            btnSurukle.MouseLeave += btnSurukle_MouseLeave;
-            btnSurukle.MouseHover += btnSurukle_MouseHover;
+            btnSurukle.MouseLeave += btn_MouseLeave;
+            btnSurukle.MouseHover += btn_MouseHover;
             // 
             // btnHucre
             // 
@@ -133,8 +133,8 @@
             btnHucre.TabIndex = 24;
             btnHucre.Text = "Hücreler";
             btnHucre.Click += btnHucre_Click;
-            btnHucre.MouseLeave += btnHucre_MouseLeave;
-            btnHucre.MouseHover += btnHucre_MouseHover;
+            btnHucre.MouseLeave += btn_MouseLeave;
+            btnHucre.MouseHover += btn_MouseHover;
             // 
             // lblUygulamaAdi
             // 
@@ -153,7 +153,6 @@
             lblUygulamaAdi.Size = new Size(394, 98);
             lblUygulamaAdi.TabIndex = 24;
             lblUygulamaAdi.Text = "Uygulama Adı";
-            lblUygulamaAdi.Click += btnHucre_Click;
             // 
             // btnQuiz
             // 
@@ -172,8 +171,8 @@
             btnQuiz.TabIndex = 24;
             btnQuiz.Text = "Quiz";
             btnQuiz.Click += btnQuiz_Click;
-            btnQuiz.MouseLeave += btnQuiz_MouseLeave;
-            btnQuiz.MouseHover += btnQuiz_MouseHover;
+            btnQuiz.MouseLeave += btn_MouseLeave;
+            btnQuiz.MouseHover += btn_MouseHover;
             // 
             // MainWindow
             // 

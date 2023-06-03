@@ -145,11 +145,13 @@
             // textSoru
             // 
             textSoru.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            textSoru.BackColor = Color.White;
             textSoru.BorderStyle = BorderStyle.None;
             textSoru.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
             textSoru.Location = new Point(128, 13);
             textSoru.Multiline = true;
             textSoru.Name = "textSoru";
+            textSoru.ReadOnly = true;
             textSoru.Size = new Size(1156, 232);
             textSoru.TabIndex = 15;
             // 

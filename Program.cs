@@ -44,8 +44,6 @@ namespace BTE_202___2023_Grup_C_Uygulaması
 
         private System.Drawing.Color borderColor = System.Drawing.Color.Red;
 
-
-
         public System.Drawing.Color BorderColor
         {
             get { return borderColor; }

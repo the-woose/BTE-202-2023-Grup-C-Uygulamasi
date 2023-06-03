@@ -14,6 +14,7 @@ namespace BTE_202___2023_Grup_C_Uygulaması
 {
     public partial class FormEslestir : Form
     {
+        MainWindow mainInstance;
         string draggedTag = string.Empty;
         string droppedTag = string.Empty;
         private int xPos;
@@ -30,7 +31,6 @@ namespace BTE_202___2023_Grup_C_Uygulaması
 
         private void btnMin_Click(object sender, EventArgs e)
         {
-
             this.WindowState = FormWindowState.Minimized;
         }
 
