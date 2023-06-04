@@ -118,7 +118,7 @@ namespace BTE_202___2023_Grup_C_Uygulaması
 
         private void panel1_BackgroundImageChanged(object sender, EventArgs e)
         {
-            if (droppedTag == pictureBox4.Tag.ToString())
+            if (droppedTag == pictureBox1.Tag.ToString())
             {
                 label1.Text = "A OK!";
             }
@@ -222,7 +222,10 @@ namespace BTE_202___2023_Grup_C_Uygulaması
 
         private void btnKontrol_Click(object sender, EventArgs e)
         {
-
+            if (panel1.Tag.ToString() == pictureBox1.Tag.ToString()){label1.Text = "Doğru!";}
+            else{label1.Text = "Fckoutta here!";}
+            if (panel2.Tag.ToString() == pictureBox2.Tag.ToString()){label2.Text = "Doğru!"; }
+            else { label1.Text = "Fckoutta here!"; }
         }
     }
 }

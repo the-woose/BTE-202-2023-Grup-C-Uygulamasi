@@ -43,6 +43,7 @@
             btnKapat = new RoundedButton();
             btnKucult = new RoundedButton();
             lblFormBaslik = new RoundedButton();
+            btnKontrol = new RoundedButton();
             ((System.ComponentModel.ISupportInitialize)pictureCekirdek1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureMito4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureMito3).BeginInit();
@@ -282,6 +283,25 @@
             lblFormBaslik.TabIndex = 25;
             lblFormBaslik.Text = "\r\nOrganelleri Sürükle";
             // 
+            // btnKontrol
+            // 
+            btnKontrol.Anchor = AnchorStyles.Top;
+            btnKontrol.BackgroundImageLayout = ImageLayout.None;
+            btnKontrol.BorderColor = Color.DarkOrange;
+            btnKontrol.BorderSize = 4;
+            btnKontrol.ControlText = "Kontrol Et";
+            btnKontrol.FillColor = Color.Gold;
+            btnKontrol.FlatAppearance.BorderSize = 0;
+            btnKontrol.FlatStyle = FlatStyle.Flat;
+            btnKontrol.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btnKontrol.ForeColor = Color.White;
+            btnKontrol.Location = new Point(655, 624);
+            btnKontrol.Name = "btnKontrol";
+            btnKontrol.Radius = 50;
+            btnKontrol.Size = new Size(157, 80);
+            btnKontrol.TabIndex = 32;
+            btnKontrol.Text = "Kontrol Et";
+            // 
             // FormSurukle
             // 
             AllowDrop = true;
@@ -289,6 +309,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(255, 219, 177);
             ClientSize = new Size(1427, 716);
+            Controls.Add(btnKontrol);
             Controls.Add(lblFormBaslik);
             Controls.Add(btnKucult);
             Controls.Add(btnKapat);
@@ -334,5 +355,6 @@
         private RoundedButton btnKapat;
         private RoundedButton btnKucult;
         private RoundedButton lblFormBaslik;
+        private RoundedButton btnKontrol;
     }
 }

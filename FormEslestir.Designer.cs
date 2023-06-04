@@ -123,6 +123,7 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(94, 53);
             panel1.TabIndex = 13;
+            panel1.Tag = "null";
             panel1.BackgroundImageChanged += panel1_BackgroundImageChanged;
             panel1.DragDrop += panel_DragDrop;
             panel1.DragEnter += picture_DragEnter;
@@ -137,6 +138,7 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(94, 53);
             panel2.TabIndex = 14;
+            panel2.Tag = "null";
             panel2.BackgroundImageChanged += panel2_BackgroundImageChanged;
             panel2.DragDrop += panel_DragDrop;
             panel2.DragEnter += picture_DragEnter;
@@ -144,6 +146,7 @@
             // lblFormBaslik
             // 
             lblFormBaslik.Anchor = AnchorStyles.Top;
+            lblFormBaslik.BackgroundImageLayout = ImageLayout.None;
             lblFormBaslik.BorderColor = Color.Empty;
             lblFormBaslik.BorderSize = 0;
             lblFormBaslik.ControlText = "\r\nÖzellikleri Eşleştir";
@@ -208,6 +211,7 @@
             panel5.Name = "panel5";
             panel5.Size = new Size(94, 53);
             panel5.TabIndex = 13;
+            panel5.Tag = "null";
             panel5.BackgroundImageChanged += panel5_BackgroundImageChanged;
             panel5.DragDrop += panel_DragDrop;
             panel5.DragEnter += picture_DragEnter;
@@ -222,6 +226,7 @@
             panel6.Name = "panel6";
             panel6.Size = new Size(94, 53);
             panel6.TabIndex = 14;
+            panel6.Tag = "null";
             panel6.BackgroundImageLayoutChanged += panel6_BackgroundImageLayoutChanged;
             panel6.DragDrop += panel_DragDrop;
             panel6.DragEnter += picture_DragEnter;
@@ -236,6 +241,7 @@
             panel3.Name = "panel3";
             panel3.Size = new Size(94, 53);
             panel3.TabIndex = 13;
+            panel3.Tag = "null";
             panel3.BackgroundImageChanged += panel3_BackgroundImageChanged;
             panel3.DragDrop += panel_DragDrop;
             panel3.DragEnter += picture_DragEnter;
@@ -250,6 +256,7 @@
             panel4.Name = "panel4";
             panel4.Size = new Size(94, 53);
             panel4.TabIndex = 13;
+            panel4.Tag = "null";
             panel4.BackgroundImageChanged += panel4_BackgroundImageChanged;
             panel4.DragDrop += panel_DragDrop;
             panel4.DragEnter += picture_DragEnter;
@@ -264,6 +271,7 @@
             panel7.Name = "panel7";
             panel7.Size = new Size(94, 53);
             panel7.TabIndex = 14;
+            panel7.Tag = "null";
             panel7.BackgroundImageChanged += panel7_BackgroundImageChanged;
             panel7.DragDrop += panel_DragDrop;
             panel7.DragEnter += picture_DragEnter;
@@ -278,6 +286,7 @@
             panel8.Name = "panel8";
             panel8.Size = new Size(94, 53);
             panel8.TabIndex = 14;
+            panel8.Tag = "null";
             panel8.BackgroundImageChanged += panel8_BackgroundImageChanged;
             panel8.DragDrop += panel_DragDrop;
             panel8.DragEnter += picture_DragEnter;
@@ -292,6 +301,7 @@
             panel9.Name = "panel9";
             panel9.Size = new Size(94, 53);
             panel9.TabIndex = 13;
+            panel9.Tag = "null";
             panel9.BackgroundImageChanged += panel9_BackgroundImageChanged;
             panel9.DragDrop += panel_DragDrop;
             panel9.DragEnter += picture_DragEnter;
@@ -306,6 +316,7 @@
             panel10.Name = "panel10";
             panel10.Size = new Size(94, 53);
             panel10.TabIndex = 13;
+            panel10.Tag = "null";
             panel10.BackgroundImageChanged += panel10_BackgroundImageChanged;
             panel10.DragDrop += panel_DragDrop;
             panel10.DragEnter += picture_DragEnter;
@@ -320,6 +331,7 @@
             panel11.Name = "panel11";
             panel11.Size = new Size(94, 53);
             panel11.TabIndex = 13;
+            panel11.Tag = "null";
             panel11.BackgroundImageChanged += panel11_BackgroundImageChanged;
             panel11.DragDrop += panel_DragDrop;
             panel11.DragEnter += picture_DragEnter;
@@ -334,6 +346,7 @@
             panel12.Name = "panel12";
             panel12.Size = new Size(94, 53);
             panel12.TabIndex = 13;
+            panel12.Tag = "null";
             panel12.BackgroundImageChanged += panel12_BackgroundImageChanged;
             panel12.DragDrop += panel_DragDrop;
             panel12.DragEnter += picture_DragEnter;
@@ -348,6 +361,7 @@
             panel13.Name = "panel13";
             panel13.Size = new Size(94, 53);
             panel13.TabIndex = 14;
+            panel13.Tag = "null";
             panel13.BackgroundImageChanged += panel13_BackgroundImageChanged;
             panel13.DragDrop += panel_DragDrop;
             panel13.DragEnter += picture_DragEnter;
@@ -509,10 +523,13 @@
             // btnKontrol
             // 
             btnKontrol.Anchor = AnchorStyles.Top;
+            btnKontrol.BackgroundImageLayout = ImageLayout.None;
             btnKontrol.BorderColor = Color.DarkOrange;
             btnKontrol.BorderSize = 4;
             btnKontrol.ControlText = "Kontrol Et";
             btnKontrol.FillColor = Color.Gold;
+            btnKontrol.FlatAppearance.BorderSize = 0;
+            btnKontrol.FlatStyle = FlatStyle.Flat;
             btnKontrol.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
             btnKontrol.ForeColor = Color.White;
             btnKontrol.Location = new Point(661, 567);
@@ -527,14 +544,14 @@
             // 
             pictureBox3.Anchor = AnchorStyles.Bottom;
             pictureBox3.BackColor = Color.Transparent;
-            pictureBox3.BackgroundImage = Properties.Resources.ribo_Tag;
+            pictureBox3.BackgroundImage = Properties.Resources.endo_Tag;
             pictureBox3.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox3.Location = new Point(84, 916);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(270, 82);
             pictureBox3.TabIndex = 11;
             pictureBox3.TabStop = false;
-            pictureBox3.Tag = "ribozom";
+            pictureBox3.Tag = "endoplazmik";
             pictureBox3.GiveFeedback += picture_GiveFeedback;
             pictureBox3.MouseDown += picture_MouseDown;
             pictureBox3.MouseMove += picture_MouseMove;
@@ -543,14 +560,14 @@
             // 
             pictureBox4.Anchor = AnchorStyles.Bottom;
             pictureBox4.BackColor = Color.Transparent;
-            pictureBox4.BackgroundImage = Properties.Resources.ribo_Tag;
+            pictureBox4.BackgroundImage = Properties.Resources.sentr_Tag;
             pictureBox4.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox4.Location = new Point(427, 715);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(270, 82);
             pictureBox4.TabIndex = 11;
             pictureBox4.TabStop = false;
-            pictureBox4.Tag = "ribozom";
+            pictureBox4.Tag = "sentriyol";
             pictureBox4.GiveFeedback += picture_GiveFeedback;
             pictureBox4.MouseDown += picture_MouseDown;
             pictureBox4.MouseMove += picture_MouseMove;
@@ -559,14 +576,14 @@
             // 
             pictureBox5.Anchor = AnchorStyles.Bottom;
             pictureBox5.BackColor = Color.Transparent;
-            pictureBox5.BackgroundImage = Properties.Resources.ribo_Tag;
+            pictureBox5.BackgroundImage = Properties.Resources.mito_Tag;
             pictureBox5.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox5.Location = new Point(427, 815);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(270, 82);
             pictureBox5.TabIndex = 11;
             pictureBox5.TabStop = false;
-            pictureBox5.Tag = "ribozom";
+            pictureBox5.Tag = "mitokondri";
             pictureBox5.GiveFeedback += picture_GiveFeedback;
             pictureBox5.MouseDown += picture_MouseDown;
             pictureBox5.MouseMove += picture_MouseMove;
@@ -575,14 +592,14 @@
             // 
             pictureBox6.Anchor = AnchorStyles.Bottom;
             pictureBox6.BackColor = Color.Transparent;
-            pictureBox6.BackgroundImage = Properties.Resources.ribo_Tag;
+            pictureBox6.BackgroundImage = Properties.Resources.zar_Tag;
             pictureBox6.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox6.Location = new Point(427, 916);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(270, 82);
             pictureBox6.TabIndex = 11;
             pictureBox6.TabStop = false;
-            pictureBox6.Tag = "ribozom";
+            pictureBox6.Tag = "zar";
             pictureBox6.GiveFeedback += picture_GiveFeedback;
             pictureBox6.MouseDown += picture_MouseDown;
             pictureBox6.MouseMove += picture_MouseMove;
@@ -591,14 +608,14 @@
             // 
             pictureBox7.Anchor = AnchorStyles.Bottom;
             pictureBox7.BackColor = Color.Transparent;
-            pictureBox7.BackgroundImage = Properties.Resources.ribo_Tag;
+            pictureBox7.BackgroundImage = Properties.Resources.lizo_Tag;
             pictureBox7.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox7.Location = new Point(743, 715);
             pictureBox7.Name = "pictureBox7";
             pictureBox7.Size = new Size(270, 82);
             pictureBox7.TabIndex = 11;
             pictureBox7.TabStop = false;
-            pictureBox7.Tag = "ribozom";
+            pictureBox7.Tag = "lizozom";
             pictureBox7.GiveFeedback += picture_GiveFeedback;
             pictureBox7.MouseDown += picture_MouseDown;
             pictureBox7.MouseMove += picture_MouseMove;
@@ -607,14 +624,14 @@
             // 
             pictureBox8.Anchor = AnchorStyles.Bottom;
             pictureBox8.BackColor = Color.Transparent;
-            pictureBox8.BackgroundImage = Properties.Resources.ribo_Tag;
+            pictureBox8.BackgroundImage = Properties.Resources.cekzar_Tag;
             pictureBox8.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox8.Location = new Point(743, 815);
             pictureBox8.Name = "pictureBox8";
             pictureBox8.Size = new Size(270, 82);
             pictureBox8.TabIndex = 11;
             pictureBox8.TabStop = false;
-            pictureBox8.Tag = "ribozom";
+            pictureBox8.Tag = "cek-zar";
             pictureBox8.GiveFeedback += picture_GiveFeedback;
             pictureBox8.MouseDown += picture_MouseDown;
             pictureBox8.MouseMove += picture_MouseMove;
@@ -623,14 +640,14 @@
             // 
             pictureBox9.Anchor = AnchorStyles.Bottom;
             pictureBox9.BackColor = Color.Transparent;
-            pictureBox9.BackgroundImage = Properties.Resources.ribo_Tag;
+            pictureBox9.BackgroundImage = Properties.Resources.ceksiv_Tag;
             pictureBox9.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox9.Location = new Point(743, 916);
             pictureBox9.Name = "pictureBox9";
             pictureBox9.Size = new Size(270, 82);
             pictureBox9.TabIndex = 11;
             pictureBox9.TabStop = false;
-            pictureBox9.Tag = "ribozom";
+            pictureBox9.Tag = "cek-siv";
             pictureBox9.GiveFeedback += picture_GiveFeedback;
             pictureBox9.MouseDown += picture_MouseDown;
             pictureBox9.MouseMove += picture_MouseMove;
@@ -639,14 +656,14 @@
             // 
             pictureBox10.Anchor = AnchorStyles.Bottom;
             pictureBox10.BackColor = Color.Transparent;
-            pictureBox10.BackgroundImage = Properties.Resources.ribo_Tag;
+            pictureBox10.BackgroundImage = Properties.Resources.cekito_Tag;
             pictureBox10.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox10.Location = new Point(1069, 715);
             pictureBox10.Name = "pictureBox10";
             pictureBox10.Size = new Size(270, 82);
             pictureBox10.TabIndex = 11;
             pictureBox10.TabStop = false;
-            pictureBox10.Tag = "ribozom";
+            pictureBox10.Tag = "cekito";
             pictureBox10.GiveFeedback += picture_GiveFeedback;
             pictureBox10.MouseDown += picture_MouseDown;
             pictureBox10.MouseMove += picture_MouseMove;
@@ -655,14 +672,14 @@
             // 
             pictureBox11.Anchor = AnchorStyles.Bottom;
             pictureBox11.BackColor = Color.Transparent;
-            pictureBox11.BackgroundImage = Properties.Resources.ribo_Tag;
+            pictureBox11.BackgroundImage = Properties.Resources.sito_Tag;
             pictureBox11.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox11.Location = new Point(1069, 815);
             pictureBox11.Name = "pictureBox11";
             pictureBox11.Size = new Size(270, 82);
             pictureBox11.TabIndex = 11;
             pictureBox11.TabStop = false;
-            pictureBox11.Tag = "ribozom";
+            pictureBox11.Tag = "sitoplazma";
             pictureBox11.GiveFeedback += picture_GiveFeedback;
             pictureBox11.MouseDown += picture_MouseDown;
             pictureBox11.MouseMove += picture_MouseMove;
@@ -671,14 +688,14 @@
             // 
             pictureBox12.Anchor = AnchorStyles.Bottom;
             pictureBox12.BackColor = Color.Transparent;
-            pictureBox12.BackgroundImage = Properties.Resources.ribo_Tag;
+            pictureBox12.BackgroundImage = Properties.Resources.golgi_Tag;
             pictureBox12.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox12.Location = new Point(1069, 916);
             pictureBox12.Name = "pictureBox12";
             pictureBox12.Size = new Size(270, 82);
             pictureBox12.TabIndex = 11;
             pictureBox12.TabStop = false;
-            pictureBox12.Tag = "ribozom";
+            pictureBox12.Tag = "golgi";
             pictureBox12.GiveFeedback += picture_GiveFeedback;
             pictureBox12.MouseDown += picture_MouseDown;
             pictureBox12.MouseMove += picture_MouseMove;
@@ -687,14 +704,14 @@
             // 
             pictureBox13.Anchor = AnchorStyles.Bottom;
             pictureBox13.BackColor = Color.Transparent;
-            pictureBox13.BackgroundImage = Properties.Resources.ribo_Tag;
+            pictureBox13.BackgroundImage = Properties.Resources.salgi_Tag;
             pictureBox13.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox13.Location = new Point(577, 1016);
             pictureBox13.Name = "pictureBox13";
             pictureBox13.Size = new Size(270, 82);
             pictureBox13.TabIndex = 11;
             pictureBox13.TabStop = false;
-            pictureBox13.Tag = "ribozom";
+            pictureBox13.Tag = "salgi";
             pictureBox13.GiveFeedback += picture_GiveFeedback;
             pictureBox13.MouseDown += picture_MouseDown;
             pictureBox13.MouseMove += picture_MouseMove;
