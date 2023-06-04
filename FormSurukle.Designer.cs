@@ -74,7 +74,7 @@
             // 
             // pictureMito4
             // 
-            pictureMito4.BackColor = Color.Lime;
+            pictureMito4.BackColor = Color.Transparent;
             pictureMito4.BackgroundImage = Properties.Resources.mito1;
             pictureMito4.BackgroundImageLayout = ImageLayout.Zoom;
             pictureMito4.Location = new Point(63, 414);
@@ -87,7 +87,7 @@
             // 
             // pictureMito3
             // 
-            pictureMito3.BackColor = Color.Lime;
+            pictureMito3.BackColor = Color.Transparent;
             pictureMito3.BackgroundImage = Properties.Resources.mito2;
             pictureMito3.BackgroundImageLayout = ImageLayout.Zoom;
             pictureMito3.Location = new Point(187, 318);
@@ -100,10 +100,10 @@
             // 
             // pictureMito2
             // 
-            pictureMito2.BackColor = Color.Lime;
+            pictureMito2.BackColor = Color.Transparent;
             pictureMito2.BackgroundImage = Properties.Resources.mito3;
             pictureMito2.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureMito2.Location = new Point(187, 72);
+            pictureMito2.Location = new Point(187, 71);
             pictureMito2.Name = "pictureMito2";
             pictureMito2.Size = new Size(82, 74);
             pictureMito2.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -117,7 +117,6 @@
             panelBitki.Anchor = AnchorStyles.Left;
             panelBitki.BackgroundImage = Properties.Resources.govde1;
             panelBitki.BackgroundImageLayout = ImageLayout.Zoom;
-            panelBitki.BorderStyle = BorderStyle.Fixed3D;
             panelBitki.Controls.Add(pictureCekird1);
             panelBitki.Controls.Add(pictureMito3);
             panelBitki.Controls.Add(pictureMito2);
@@ -131,7 +130,7 @@
             // 
             // pictureCekird1
             // 
-            pictureCekird1.BackColor = Color.PaleGreen;
+            pictureCekird1.BackColor = Color.Transparent;
             pictureCekird1.BackgroundImage = Properties.Resources.cekirdek1;
             pictureCekird1.BackgroundImageLayout = ImageLayout.Zoom;
             pictureCekird1.Location = new Point(145, 201);
@@ -163,7 +162,6 @@
             panel1.Anchor = AnchorStyles.Right;
             panel1.BackgroundImage = Properties.Resources.govde2;
             panel1.BackgroundImageLayout = ImageLayout.Stretch;
-            panel1.BorderStyle = BorderStyle.Fixed3D;
             panel1.Controls.Add(pictureMito6);
             panel1.Controls.Add(pictureCekird2);
             panel1.Controls.Add(pictureMito5);
@@ -177,7 +175,7 @@
             // 
             // pictureMito6
             // 
-            pictureMito6.BackColor = Color.Lime;
+            pictureMito6.BackColor = Color.Transparent;
             pictureMito6.BackgroundImage = Properties.Resources.mito2;
             pictureMito6.BackgroundImageLayout = ImageLayout.Zoom;
             pictureMito6.Location = new Point(187, 314);
@@ -190,7 +188,7 @@
             // 
             // pictureCekird2
             // 
-            pictureCekird2.BackColor = Color.PaleGreen;
+            pictureCekird2.BackColor = Color.Transparent;
             pictureCekird2.BackgroundImage = Properties.Resources.cekirdek1;
             pictureCekird2.BackgroundImageLayout = ImageLayout.Zoom;
             pictureCekird2.Location = new Point(115, 201);
@@ -203,7 +201,7 @@
             // 
             // pictureMito5
             // 
-            pictureMito5.BackColor = Color.Lime;
+            pictureMito5.BackColor = Color.Transparent;
             pictureMito5.BackgroundImage = Properties.Resources.mito3;
             pictureMito5.BackgroundImageLayout = ImageLayout.Zoom;
             pictureMito5.Location = new Point(187, 72);
@@ -216,7 +214,7 @@
             // 
             // pictureMito7
             // 
-            pictureMito7.BackColor = Color.Lime;
+            pictureMito7.BackColor = Color.Transparent;
             pictureMito7.BackgroundImage = Properties.Resources.mito1;
             pictureMito7.BackgroundImageLayout = ImageLayout.Zoom;
             pictureMito7.Location = new Point(63, 414);

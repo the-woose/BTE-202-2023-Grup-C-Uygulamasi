@@ -18,6 +18,7 @@ namespace BTE_202___2023_Grup_C_Uygulaması
         private System.Windows.Forms.Timer zoomOutTimer;
         private int zoomLevel = 1;
         private int zoomstate = 0;
+        private int selection = 0;
         private const int ZoomIncrement = 35;
         private const int MaxZoomLevel = 14;
         public FormHucre()
@@ -61,12 +62,18 @@ namespace BTE_202___2023_Grup_C_Uygulaması
 
         private void ZoomPictureBox(int zoomInOutType)
         {
-            if(zoomInOutType == 1)
+            if (zoomLevel < 1)
             {
-            
+
+            }
+            else
+
+            if (zoomInOutType == 1)
+            {
+
                 pictureBox2.Width += ZoomIncrement;
                 pictureBox2.Height += ZoomIncrement;
-                ++zoomLevel;
+                zoomLevel++;
                 pictureBox2.Location = new System.Drawing.Point(pictureBox2.Location.X - ZoomIncrement, pictureBox2.Location.Y - ZoomIncrement);
 
             }
@@ -74,7 +81,7 @@ namespace BTE_202___2023_Grup_C_Uygulaması
             {
                 pictureBox2.Width -= ZoomIncrement;
                 pictureBox2.Height -= ZoomIncrement;
-                --zoomLevel;
+                zoomLevel--;
                 pictureBox2.Location = new System.Drawing.Point(pictureBox2.Location.X + ZoomIncrement, pictureBox2.Location.Y + ZoomIncrement);
             }
         }
@@ -111,13 +118,15 @@ namespace BTE_202___2023_Grup_C_Uygulaması
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (zoomstate == 0) {
+            selection = 2;
+            if (zoomstate == 0)
+            {
                 zoomInTimer.Start();
                 //zoomstate = 1;
             }
             //if (zoomLevel == MaxZoomLevel)
             //{
-            //    zoomTimer.Stop();
+            //    zoomInTimer.Stop();
             //}
         }
 
@@ -126,12 +135,7 @@ namespace BTE_202___2023_Grup_C_Uygulaması
             if (zoomstate == 1)
             {
                 zoomOutTimer.Start();
-                //zoomstate = 0;
             }
-            //if (zoomLevel <= MaxZoomLevel)
-            //{
-            //    zoomTimer.Stop();
-            //}
         }
     }
 }

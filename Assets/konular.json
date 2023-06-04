@@ -1,68 +1,68 @@
 ﻿[
-    {
-      "itemID": 1,
-      "cisim": "Koful",
-      "tanim": "Sitoplazmada bulunan içi sıvı dolu boşluklardan oluşan bir organeldir. Vakuol de denilen koful; bütün bitkiler ve bütün mantarlarda, bazı protistalar, bazı hayvanlar ve bazı bakterilerde bulunur."
-    },
-    {
-      "itemID": 2,
-      "cisim": "Ribozom",
-      "tanim": "Ribozomal RNA ve proteinlerden oluşan ve hücrenin protein sentezinden görevli olan makromoleküldür. Tüm canlı hücrelerinde bulunmaktadır"
-    },
+  {
+    "itemID": 1,
+    "cisim": "Koful",
+    "tanim": "Sitoplazmada bulunan içi sıvı dolu boşluklardan oluşan bir organeldir. Vakuol de denilen koful;\r\nbütün bitkiler ve bütün mantarlarda, bazı protistalar, bazı hayvanlar ve bazı bakterilerde bulunur."
+  },
+  {
+    "itemID": 2,
+    "cisim": "Ribozom",
+    "tanim": "Ribozomal RNA ve proteinlerden oluşan ve hücrenin protein sentezinden görevli olan makromoleküldür.\r\nTüm canlı hücrelerinde bulunmaktadır"
+  },
     {
       "itemID": 3,
       "cisim": "Endoplazmik retikulum",
       "tanim": "Hücrede bulunan, veziküller, tüpler ve sisternalardan oluşmuş bir organeldir."
     },
-    {
-      "itemID": 4,
-      "cisim": "Sentriyol",
-      "tanim": "Varil biçimindeki hücre organelleridir. Ökaryotik hücrelerin çoğunda bulunsalar da damarlı bitkilerde ve mantarlarda bulunmazlar. Nöron, olgun yumurta, çizgili kas hücresi hücrelerinde de yokturlar. Alglerde görülürler."
-    },
-    {
-      "itemID": 5,
-      "cisim": "Mitokondri",
-      "tanim": "Hücre organellerinden biridir.  Bazı hücreler tek bir büyük mitokondri içerebilse de mitokondriler hücrelerde çoğunlukla fazla sayılardadır."
-    },
-    {
-      "itemID": 6,
-      "cisim": "Hücre zarı",
-      "tanim": "Hücrenin dış kısmında bulunan, molekülleri özelliklerine göre hücre içine alan veya dışarı bırakan seçici geçirgen katmandır. Hücre zarı dinamik ve esnek bir yapıya sahiptir."
-    },
-    {
-      "itemID": 7,
-      "cisim": "Lizozom",
-      "tanim": "Ökaryotik hücrelerin sitoplazmasında bulunan, zarla çevrili, genellikle küçük, yuvarlak ve çapları 0,2-0,8 mikron arasında değişen yapılardır"
-    },
-    {
-      "itemID": 8,
-      "cisim": "Çekirdek zarı",
-      "tanim": "Ökaryotik hücrelerde genetik materyali çevreleyen çekirdeği çevreleyen iki çift tabakalı lipit zardan oluşan bir zardır. Çekirdek zarı, iki lipit çift tabakalı zardan, bir iç çekirdek zar ve bir dış çekirdek zarından oluşur."
-    },
-    {
-      "itemID": 9,
-      "cisim": "Çekirdek sıvısı",
-      "tanim": "Çekirdekte yer alan biçimli elemanların aralarını dolduran ve proteinlerden oluşan bağdaşık görünümlü bir eriyik, nükleoplazma"
-    },
-    {
-      "itemID": 10,
-      "cisim": "Çekirdekçik",
-      "tanim": "Ökaryot hücrelerin çekirdeklerinin içinde bulunan zarsız bir yapıdır. Çekirdekçik; bakteriler, arkealar, çekirdek içeren alyuvarlar ve sperm hücreleri dışında bütün canlı hücrelerde bulunan küresel bir cisimdir. Yapısının %10-20 kadarı RNA'dan, %70-80 kadarı proteinin oluşmaktadır"
-    },
-    {
-      "itemID": 11,
-      "cisim": "Sitoplazma",
-      "tanim": "Hücre zarı ile çekirdek arasındaki sıvı bölüme denir. Sitoplazma büyük oranda su içerdiği için açık renkli yarı akışkan ve saydam özelliğe sahiptir."
-    },
-    {
-      "itemID": 12,
-      "cisim": "Golgi aygıtı",
-      "tanim": "Granüllü endoplazmik retikulumdan gelen proteinleri modifiye eden ve aynı zamanda lipitlerin hücre içinde taşınmasını ve lizozomun oluşumunda görev alan organeldir."
-    },
-    {
-      "itemID": 13,
-      "cisim": "Salgı kofulu",
-      "tanim": "Golgi aygıtında üretilen salgıların ve metabolizma sonucu meydana gelen atık maddelerin hücre dışına verilmesini sağlayan keseciklerdir."
-    }
+  {
+    "itemID": 4,
+    "cisim": "Sentriyol",
+    "tanim": "Varil biçimindeki hücre organelleridir. Ökaryotik hücrelerin çoğunda bulunsalar da damarlı\r\nbitkilerde ve mantarlarda bulunmazlar. Nöron, olgun yumurta, çizgili kas hücresi hücrelerinde de yokturlar. Alglerde görülürler."
+  },
+  {
+    "itemID": 5,
+    "cisim": "Mitokondri",
+    "tanim": "Hücre organellerinden biridir.  Bazı hücreler tek bir büyük mitokondri içerebilse de mitokondriler\r\nhücrelerde çoğunlukla fazla sayılardadır."
+  },
+  {
+    "itemID": 6,
+    "cisim": "Hücre zarı",
+    "tanim": "Hücrenin dış kısmında bulunan, molekülleri özelliklerine göre hücre içine alan veya dışarı bırakan\r\nseçici geçirgen katmandır. Hücre zarı dinamik ve esnek bir yapıya sahiptir."
+  },
+  {
+    "itemID": 7,
+    "cisim": "Lizozom",
+    "tanim": "Ökaryotik hücrelerin sitoplazmasında bulunan, zarla çevrili, genellikle küçük, yuvarlak\r\nve çapları 0,2-0,8 mikron arasında değişen yapılardır"
+  },
+  {
+    "itemID": 8,
+    "cisim": "Çekirdek zarı",
+    "tanim": "Ökaryotik hücrelerde genetik materyali çevreleyen çekirdeği çevreleyen iki çift tabakalı lipit zardan\r\noluşan bir zardır. Çekirdek zarı, iki lipit çift tabakalı zardan, bir iç çekirdek zar ve bir dış çekirdek zarından oluşur."
+  },
+  {
+    "itemID": 9,
+    "cisim": "Çekirdek sıvısı",
+    "tanim": "Çekirdekte yer alan biçimli elemanların aralarını dolduran ve proteinlerden oluşan bağdaşık\r\ngörünümlü bir eriyik, nükleoplazma"
+  },
+  {
+    "itemID": 10,
+    "cisim": "Çekirdekçik",
+    "tanim": "Ökaryot hücrelerin çekirdeklerinin içinde bulunan zarsız bir yapıdır. Çekirdekçik; bakteriler,\r\narkealar, çekirdek içeren alyuvarlar ve sperm hücreleri dışında bütün canlı hücrelerde bulunan küresel bir cisimdir. Yapısının %10-20 kadarı RNA'dan, %70-80 kadarı proteinin oluşmaktadır"
+  },
+  {
+    "itemID": 11,
+    "cisim": "Sitoplazma",
+    "tanim": "Hücre zarı ile çekirdek arasındaki sıvı bölüme denir. Sitoplazma büyük oranda su içerdiği için\r\naçık renkli yarı akışkan ve saydam özelliğe sahiptir."
+  },
+  {
+    "itemID": 12,
+    "cisim": "Golgi aygıtı",
+    "tanim": "Granüllü endoplazmik retikulumdan gelen proteinleri modifiye eden ve aynı zamanda lipitlerin hücre\r\niçinde taşınmasını ve lizozomun oluşumunda görev alan organeldir."
+  },
+  {
+    "itemID": 13,
+    "cisim": "Salgı kofulu",
+    "tanim": "Golgi aygıtında üretilen salgıların ve metabolizma sonucu meydana gelen atık maddelerin hücre dışına\r\nverilmesini sağlayan keseciklerdir."
+  }
 
   ]
