@@ -9,11 +9,11 @@
     "cisim": "Ribozom",
     "tanim": "Ribozomal RNA ve proteinlerden oluşan ve hücrenin protein sentezinden görevli olan makromoleküldür.\r\nTüm canlı hücrelerinde bulunmaktadır"
   },
-    {
-      "itemID": 3,
-      "cisim": "Endoplazmik retikulum",
-      "tanim": "Hücrede bulunan, veziküller, tüpler ve sisternalardan oluşmuş bir organeldir."
-    },
+  {
+    "itemID": 3,
+    "cisim": "Endoplazmik retikulum",
+    "tanim": "Hücrede bulunan, veziküller, tüpler ve sisternalardan oluşmuş bir organeldir."
+  },
   {
     "itemID": 4,
     "cisim": "Sentriyol",

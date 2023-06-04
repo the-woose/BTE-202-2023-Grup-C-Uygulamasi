@@ -38,7 +38,6 @@ namespace BTE_202___2023_Grup_C_Uygulaması
             label11.Text = konular[10].tanim.ToString();
             label12.Text = konular[11].tanim.ToString();
             label13.Text = konular[12].tanim.ToString();
-            //label16.Text = konular[15].cisim.ToString();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -75,7 +74,6 @@ namespace BTE_202___2023_Grup_C_Uygulaması
             PictureBox p = sender as PictureBox;
             if (p != null)
             {
-                //draggedTag = p.Tag.ToString();
                 if (e.Button == MouseButtons.Left)
                 {
                     p.Top += (e.Y - yPos);
@@ -87,13 +85,12 @@ namespace BTE_202___2023_Grup_C_Uygulaması
         private void picture_GiveFeedback(object sender, GiveFeedbackEventArgs e)
         {
             PictureBox p = sender as PictureBox;
-            Bitmap bmp = new Bitmap(150, 150);
+            Bitmap bmp = new Bitmap(125, 125);
             p.DrawToBitmap(bmp, new Rectangle(Point.Empty, bmp.Size));
             bmp.MakeTransparent(BackColor);
             e.UseDefaultCursors = false;
             Cursor cur = new Cursor(bmp.GetHicon());
             Cursor.Current = cur;
-            //draggedTag = p.Tag.ToString();
         }
 
         private void picture_DragEnter(object sender, DragEventArgs e)
@@ -121,7 +118,6 @@ namespace BTE_202___2023_Grup_C_Uygulaması
 
         private void panel1_BackgroundImageChanged(object sender, EventArgs e)
         {
-            //label1.Text = "Sürüklenen cisim = " + panel1.Tag;
             if (droppedTag == pictureBox4.Tag.ToString())
             {
                 label1.Text = "A OK!";
@@ -222,6 +218,11 @@ namespace BTE_202___2023_Grup_C_Uygulaması
             //{
             //    label13.Text = "A OK!";
             //}
+        }
+
+        private void btnKontrol_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
