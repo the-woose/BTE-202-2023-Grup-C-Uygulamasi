@@ -11,7 +11,7 @@
 ### Karşılama Ekranı
 ![karsilama](./Screenshots/MainMenu.png)
 ### Hücrenin Yapısı
-- 
+![hucreyapisi](./Screenshots/FormHucre.png)
 ### Quiz
 ![quiz](./Screenshots/FormQuiz.png)
 ### Organelleri Sürükle
