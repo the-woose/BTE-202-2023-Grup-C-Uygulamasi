@@ -118,26 +118,26 @@ namespace BTE_202___2023_Grup_C_Uygulaması
 
         private void panel1_BackgroundImageChanged(object sender, EventArgs e)
         {
-            if (droppedTag == pictureBox1.Tag.ToString())
-            {
-                label1.Text = "A OK!";
-            }
+            //if (droppedTag == pictureBox1.Tag.ToString())
+            //{
+            //    label1.Text = "A OK!";
+            //}
         }
 
         private void panel2_BackgroundImageChanged(object sender, EventArgs e)
         {
-            if (droppedTag == pictureBox2.Tag.ToString())
-            {
-                label2.Text = "A OK!";
-            }
+            //if (droppedTag == pictureBox2.Tag.ToString())
+            //{
+            //    label2.Text = "A OK!";
+            //}
         }
 
         private void panel3_BackgroundImageChanged(object sender, EventArgs e)
         {
-            if (droppedTag == pictureBox2.Tag.ToString())
-            {
-                label3.Text = "A OK!";
-            }
+            //if (droppedTag == pictureBox2.Tag.ToString())
+            //{
+            //    label3.Text = "A OK!";
+            //}
         }
 
         private void panel4_BackgroundImageChanged(object sender, EventArgs e)
@@ -222,10 +222,10 @@ namespace BTE_202___2023_Grup_C_Uygulaması
 
         private void btnKontrol_Click(object sender, EventArgs e)
         {
-            if (panel1.Tag.ToString() == pictureBox1.Tag.ToString()){label1.Text = "Doğru!";}
-            else{label1.Text = "Fckoutta here!";}
-            if (panel2.Tag.ToString() == pictureBox2.Tag.ToString()){label2.Text = "Doğru!"; }
-            else { label1.Text = "Fckoutta here!"; }
+            //if (panel1.Tag.ToString() == pictureBox1.Tag.ToString()){label1.Text = "Doğru!";}
+            //else{label1.Text = "Fckoutta here!";}
+            //if (panel2.Tag.ToString() == pictureBox2.Tag.ToString()){label2.Text = "Doğru!"; }
+            //else { label1.Text = "Fckoutta here!"; }
         }
     }
 }

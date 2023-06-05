@@ -20,6 +20,20 @@ namespace BTE_202___2023_Grup_C_Uygulaması
         private int xPos;
         private int yPos;
 
+        //protected override CreateParams CreateParams
+        //{
+        //    get
+        //    {
+        //        CreateParams cp = base.CreateParams;
+        //        cp.ExStyle |= 0x20;
+        //        return cp;
+        //    }
+        //}
+        //protected override void OnPaintBackground(PaintEventArgs e)
+        //{
+        //    // Do Nothing
+        //}
+
         public FormSurukle()
         {
             InitializeComponent();
@@ -92,22 +106,36 @@ namespace BTE_202___2023_Grup_C_Uygulaması
 
         private void panel_DragDro(object sender, DragEventArgs e)
         {
-            Panel p2 = sender as Panel;
-            if ((e.Data.GetDataPresent(DataFormats.Bitmap)))
+            droppedTag = draggedTag;
+            if (draggedTag == "Cekirdek")
             {
-                droppedTag = draggedTag;
-                if (draggedTag == "Cekirdek")
-                {
-                    pictureCekird1.Visible = true;
-                }
-                if (draggedTag == "Mitokondri")
-                {
-                    pictureMito2.Visible = true;
-                    pictureMito3.Visible = true;
-                    pictureMito4.Visible = true;
-                }
-                //label1.Text = "Sürüklenen cisim = " + droppedTag;
+                pictureCekird1.Visible = true;
+                pictureCekird1.BackColor = Color.Transparent;
             }
+            if (draggedTag == "Mitokondri")
+            {
+                pictureMitoB1.Visible = true;
+            }
+            if (draggedTag == "Endoplazmik")
+            {
+                pictureGolgiB1.Visible = true;
+                pictureGolgiB1.BackColor = Color.Transparent;
+                pictureGolgiB2.Visible = true;
+                pictureGolgiB2.BackColor = Color.Transparent;
+            }
+            if (draggedTag == "Koful")
+            {
+                pictureKoful1.Visible = true;
+            }
+            if (draggedTag == "Golgi")
+            {
+                pictureGlgB1.Visible = true;
+            }
+            //Panel p2 = sender as Panel;
+            //if ((e.Data.GetDataPresent(DataFormats.Bitmap)))
+            //{
+            //label1.Text = "Sürüklenen cisim = " + droppedTag;
+            //}
         }
 
         private void panel_DragDrop(object sender, DragEventArgs e)
@@ -116,14 +144,29 @@ namespace BTE_202___2023_Grup_C_Uygulaması
             if (draggedTag == "Cekirdek")
             {
                 pictureCekird2.Visible = true;
+                pictureCekird2.BackColor = Color.Transparent;
             }
             if (draggedTag == "Mitokondri")
             {
-                pictureMito5.Visible = true;
-                pictureMito6.Visible = true;
-                pictureMito7.Visible = true;
+                pictureMitoH1.Visible = true;
+                pictureMitoH2.Visible = true;
+                pictureMitoH3.Visible = true;
+            }
+            if (draggedTag == "Endoplazmik")
+            {
+                pictureGolgiH1.Visible = true;
+            }
+            if (draggedTag == "Lizozom")
+            {
+                pictureLizo1.Visible = true;
+                pictureLizo2.Visible = true;
+                pictureLizo3.Visible = true;
+                pictureLizo4.Visible = true;
+            }
+            if (draggedTag == "Golgi")
+            {
+                pictureGlgH1.Visible = true;
             }
         }
-
     }
 }

@@ -63,6 +63,26 @@ namespace BTE_202___2023_Grup_C_Uygulaması.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cekirdek_b_1 {
+            get {
+                object obj = ResourceManager.GetObject("cekirdek-b-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cekirdek_h_1 {
+            get {
+                object obj = ResourceManager.GetObject("cekirdek-h-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cekirdek1 {
             get {
                 object obj = ResourceManager.GetObject("cekirdek1", resourceCulture);
@@ -113,6 +133,66 @@ namespace BTE_202___2023_Grup_C_Uygulaması.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap golgi_b_1 {
+            get {
+                object obj = ResourceManager.GetObject("golgi-b-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap golgi_b_2 {
+            get {
+                object obj = ResourceManager.GetObject("golgi-b-2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap golgi_b_3 {
+            get {
+                object obj = ResourceManager.GetObject("golgi-b-3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap golgi_b_31 {
+            get {
+                object obj = ResourceManager.GetObject("golgi-b-31", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap golgi_h_1 {
+            get {
+                object obj = ResourceManager.GetObject("golgi-h-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap golgi_h_2 {
+            get {
+                object obj = ResourceManager.GetObject("golgi-h-2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap golgi_Tag {
             get {
                 object obj = ResourceManager.GetObject("golgi-Tag", resourceCulture);
@@ -143,6 +223,16 @@ namespace BTE_202___2023_Grup_C_Uygulaması.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap govde3 {
+            get {
+                object obj = ResourceManager.GetObject("govde3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Image20230424222529 {
             get {
                 object obj = ResourceManager.GetObject("Image20230424222529", resourceCulture);
@@ -153,9 +243,29 @@ namespace BTE_202___2023_Grup_C_Uygulaması.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap koful_b_1 {
+            get {
+                object obj = ResourceManager.GetObject("koful-b-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap koful_Tag {
             get {
                 object obj = ResourceManager.GetObject("koful-Tag", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lizo_h_1 {
+            get {
+                object obj = ResourceManager.GetObject("lizo-h-1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -176,6 +286,46 @@ namespace BTE_202___2023_Grup_C_Uygulaması.Properties {
         internal static System.Drawing.Bitmap Menu {
             get {
                 object obj = ResourceManager.GetObject("Menu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mito_b_1 {
+            get {
+                object obj = ResourceManager.GetObject("mito-b-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mito_h_1 {
+            get {
+                object obj = ResourceManager.GetObject("mito-h-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mito_h_2 {
+            get {
+                object obj = ResourceManager.GetObject("mito-h-2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mito_h_3 {
+            get {
+                object obj = ResourceManager.GetObject("mito-h-3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

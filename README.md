@@ -9,7 +9,7 @@
 [İndir](https://github.com/the-woose/BTE-202-2023-Grup-C-Uygulamasi/releases/download/v0.1/BTE.202.-.2023.Grup.C.Uygulamasi.exe)
 ## Nasıl Kullanılır
 ### Karşılama Ekranı
-![karsilama](./Screenshots/MainMenu.jpg)
+![karsilama](./Screenshots/MainMenu.png)
 ### Hücrenin Yapısı
 - 
 ### Quiz

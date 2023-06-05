@@ -126,9 +126,9 @@
             panel1.Controls.Add(lblSoruBaslik);
             panel1.Controls.Add(textSoruContainer);
             panel1.Dock = DockStyle.Bottom;
-            panel1.Location = new Point(0, 309);
+            panel1.Location = new Point(0, 299);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1414, 540);
+            panel1.Size = new Size(1414, 550);
             panel1.TabIndex = 12;
             // 
             // labelCevap
@@ -162,7 +162,7 @@
             button2.FlatAppearance.BorderSize = 0;
             button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             button2.ForeColor = Color.White;
-            button2.Location = new Point(1350, 476);
+            button2.Location = new Point(1350, 486);
             button2.Margin = new Padding(5);
             button2.MaximumSize = new Size(50, 50);
             button2.MinimumSize = new Size(50, 50);
@@ -180,7 +180,7 @@
             buttonKontrol.FlatAppearance.BorderSize = 0;
             buttonKontrol.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             buttonKontrol.ForeColor = Color.White;
-            buttonKontrol.Location = new Point(680, 476);
+            buttonKontrol.Location = new Point(680, 486);
             buttonKontrol.Margin = new Padding(5);
             buttonKontrol.MaximumSize = new Size(75, 50);
             buttonKontrol.MinimumSize = new Size(75, 50);
@@ -198,7 +198,7 @@
             button1.FlatAppearance.BorderSize = 0;
             button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             button1.ForeColor = Color.White;
-            button1.Location = new Point(1290, 476);
+            button1.Location = new Point(1290, 486);
             button1.Margin = new Padding(5);
             button1.MaximumSize = new Size(50, 50);
             button1.MinimumSize = new Size(50, 50);
@@ -213,7 +213,7 @@
             // 
             lblCvp5.AutoSize = true;
             lblCvp5.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            lblCvp5.Location = new Point(33, 419);
+            lblCvp5.Location = new Point(30, 439);
             lblCvp5.Name = "lblCvp5";
             lblCvp5.Size = new Size(44, 36);
             lblCvp5.TabIndex = 12;
@@ -225,7 +225,7 @@
             // 
             lblCvp4.AutoSize = true;
             lblCvp4.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            lblCvp4.Location = new Point(33, 377);
+            lblCvp4.Location = new Point(30, 397);
             lblCvp4.Name = "lblCvp4";
             lblCvp4.Size = new Size(49, 36);
             lblCvp4.TabIndex = 12;
@@ -237,7 +237,7 @@
             // 
             lblCvp3.AutoSize = true;
             lblCvp3.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            lblCvp3.Location = new Point(33, 335);
+            lblCvp3.Location = new Point(30, 355);
             lblCvp3.Name = "lblCvp3";
             lblCvp3.Size = new Size(47, 36);
             lblCvp3.TabIndex = 12;
@@ -249,7 +249,7 @@
             // 
             lblCvp2.AutoSize = true;
             lblCvp2.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            lblCvp2.Location = new Point(33, 293);
+            lblCvp2.Location = new Point(30, 313);
             lblCvp2.Name = "lblCvp2";
             lblCvp2.Size = new Size(46, 36);
             lblCvp2.TabIndex = 12;
@@ -261,7 +261,7 @@
             // 
             lblCvp1.AutoSize = true;
             lblCvp1.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            lblCvp1.Location = new Point(33, 251);
+            lblCvp1.Location = new Point(30, 271);
             lblCvp1.Name = "lblCvp1";
             lblCvp1.Size = new Size(47, 36);
             lblCvp1.TabIndex = 12;
@@ -296,7 +296,7 @@
             panel2.Dock = DockStyle.Fill;
             panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(1414, 309);
+            panel2.Size = new Size(1414, 299);
             panel2.TabIndex = 13;
             // 
             // btnKucult

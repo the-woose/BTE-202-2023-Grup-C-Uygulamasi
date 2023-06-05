@@ -118,79 +118,124 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ORGANELLER-Eslestir" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Images\ORGANELLER-Eslestir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="zar-Tag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\zar-Tag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Images\Menu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cekirdek1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Images\surukle\cekirdek1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="govde1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Images\surukle\govde1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="plane" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Images\plane.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mito1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Images\surukle\mito1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mito2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Images\surukle\mito2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="govde2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Images\surukle\govde2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ORGANELLER - Kutu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Images\ORGANELLER - Kutu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Image20230424222529" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Images\Image20230424222529.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mito3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Images\surukle\mito3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="quiz" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Images\quiz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cekito-Tag" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Images\surukle\cekito-Tag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ceksiv-Tag" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Images\surukle\ceksiv-Tag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cekzar-Tag" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Images\surukle\cekzar-Tag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="endo-Tag" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Images\surukle\endo-Tag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="golgi-Tag" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Images\surukle\golgi-Tag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="koful-Tag" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Images\surukle\koful-Tag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lizo-Tag" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Images\surukle\lizo-Tag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mito-Tag" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Images\surukle\mito-Tag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="golgi-h-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\golgi-h-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ribo-Tag" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Images\surukle\ribo-Tag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="salgi-Tag" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Images\surukle\salgi-Tag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sito-Tag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\sito-Tag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="golgi-b-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\golgi-b-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cekito-Tag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\cekito-Tag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mito3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\mito3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\Menu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="golgi-Tag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\golgi-Tag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mito-b-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\mito-b-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plane" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\plane.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cekzar-Tag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\cekzar-Tag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mito-h-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\mito-h-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ORGANELLER-Eslestir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\ORGANELLER-Eslestir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="koful-Tag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\koful-Tag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="golgi-b-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\golgi-b-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="govde2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\govde2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mito1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\mito1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sentr-Tag" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Images\surukle\sentr-Tag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sito-Tag" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Images\surukle\sito-Tag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="golgi-b-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\golgi-b-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="zar-Tag" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Images\surukle\zar-Tag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Image20230424222529" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\Image20230424222529.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="endo-Tag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\endo-Tag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cekirdek1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\cekirdek1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="quiz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\quiz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cekirdek-h-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\cekirdek-h-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mito-h-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\mito-h-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mito-Tag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\mito-Tag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cekirdek-b-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\cekirdek-b-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="govde3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\govde3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="govde1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\govde1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mito2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\mito2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="golgi-b-31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\golgi-b-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salgi-Tag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\salgi-Tag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ORGANELLER - Kutu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\ORGANELLER - Kutu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lizo-Tag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\lizo-Tag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="golgi-h-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\golgi-h-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="koful-b-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\koful-b-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mito-h-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\mito-h-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ceksiv-Tag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\ceksiv-Tag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lizo-h-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Images\surukle\lizo-h-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -40,21 +40,21 @@
             button2 = new Button();
             button3 = new Button();
             groupBox1 = new GroupBox();
+            radioButton13 = new RadioButton();
+            radioButton12 = new RadioButton();
+            radioButton11 = new RadioButton();
+            radioButton10 = new RadioButton();
+            radioButton9 = new RadioButton();
+            radioButton8 = new RadioButton();
+            radioButton7 = new RadioButton();
+            radioButton6 = new RadioButton();
+            radioButton5 = new RadioButton();
+            radioButton4 = new RadioButton();
+            radioButton3 = new RadioButton();
+            radioButton2 = new RadioButton();
+            radioButton1 = new RadioButton();
             panel1 = new Panel();
             panel2 = new Panel();
-            radioButton1 = new RadioButton();
-            radioButton2 = new RadioButton();
-            radioButton3 = new RadioButton();
-            radioButton4 = new RadioButton();
-            radioButton5 = new RadioButton();
-            radioButton6 = new RadioButton();
-            radioButton7 = new RadioButton();
-            radioButton8 = new RadioButton();
-            radioButton9 = new RadioButton();
-            radioButton10 = new RadioButton();
-            radioButton11 = new RadioButton();
-            radioButton12 = new RadioButton();
-            radioButton13 = new RadioButton();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             groupBox1.SuspendLayout();
@@ -234,6 +234,149 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Organeller";
             // 
+            // radioButton13
+            // 
+            radioButton13.AutoSize = true;
+            radioButton13.Location = new Point(102, 175);
+            radioButton13.Name = "radioButton13";
+            radioButton13.Size = new Size(87, 19);
+            radioButton13.TabIndex = 47;
+            radioButton13.TabStop = true;
+            radioButton13.Text = "Salgı kofulu";
+            radioButton13.UseVisualStyleBackColor = true;
+            // 
+            // radioButton12
+            // 
+            radioButton12.AutoSize = true;
+            radioButton12.Location = new Point(230, 147);
+            radioButton12.Name = "radioButton12";
+            radioButton12.Size = new Size(85, 19);
+            radioButton12.TabIndex = 46;
+            radioButton12.TabStop = true;
+            radioButton12.Text = "Golgi aygıtı";
+            radioButton12.UseVisualStyleBackColor = true;
+            // 
+            // radioButton11
+            // 
+            radioButton11.AutoSize = true;
+            radioButton11.Location = new Point(230, 122);
+            radioButton11.Name = "radioButton11";
+            radioButton11.Size = new Size(83, 19);
+            radioButton11.TabIndex = 45;
+            radioButton11.TabStop = true;
+            radioButton11.Text = "Sitoplazma";
+            radioButton11.UseVisualStyleBackColor = true;
+            // 
+            // radioButton10
+            // 
+            radioButton10.AutoSize = true;
+            radioButton10.Location = new Point(230, 97);
+            radioButton10.Name = "radioButton10";
+            radioButton10.Size = new Size(86, 19);
+            radioButton10.TabIndex = 44;
+            radioButton10.TabStop = true;
+            radioButton10.Text = "Çekirdekçik";
+            radioButton10.UseVisualStyleBackColor = true;
+            // 
+            // radioButton9
+            // 
+            radioButton9.AutoSize = true;
+            radioButton9.Location = new Point(230, 72);
+            radioButton9.Name = "radioButton9";
+            radioButton9.Size = new Size(99, 19);
+            radioButton9.TabIndex = 43;
+            radioButton9.TabStop = true;
+            radioButton9.Text = "Çekirdek sıvısı";
+            radioButton9.UseVisualStyleBackColor = true;
+            // 
+            // radioButton8
+            // 
+            radioButton8.AutoSize = true;
+            radioButton8.Location = new Point(230, 47);
+            radioButton8.Name = "radioButton8";
+            radioButton8.Size = new Size(92, 19);
+            radioButton8.TabIndex = 42;
+            radioButton8.TabStop = true;
+            radioButton8.Text = "Çekirdek zarı";
+            radioButton8.UseVisualStyleBackColor = true;
+            // 
+            // radioButton7
+            // 
+            radioButton7.AutoSize = true;
+            radioButton7.Location = new Point(230, 22);
+            radioButton7.Name = "radioButton7";
+            radioButton7.Size = new Size(69, 19);
+            radioButton7.TabIndex = 41;
+            radioButton7.TabStop = true;
+            radioButton7.Text = "Lizozom";
+            radioButton7.UseVisualStyleBackColor = true;
+            // 
+            // radioButton6
+            // 
+            radioButton6.AutoSize = true;
+            radioButton6.Location = new Point(6, 147);
+            radioButton6.Name = "radioButton6";
+            radioButton6.Size = new Size(78, 19);
+            radioButton6.TabIndex = 40;
+            radioButton6.TabStop = true;
+            radioButton6.Text = "Hücre zarı";
+            radioButton6.UseVisualStyleBackColor = true;
+            // 
+            // radioButton5
+            // 
+            radioButton5.AutoSize = true;
+            radioButton5.Location = new Point(6, 122);
+            radioButton5.Name = "radioButton5";
+            radioButton5.Size = new Size(84, 19);
+            radioButton5.TabIndex = 39;
+            radioButton5.TabStop = true;
+            radioButton5.Text = "Mitokondri";
+            radioButton5.UseVisualStyleBackColor = true;
+            // 
+            // radioButton4
+            // 
+            radioButton4.AutoSize = true;
+            radioButton4.Location = new Point(6, 97);
+            radioButton4.Name = "radioButton4";
+            radioButton4.Size = new Size(71, 19);
+            radioButton4.TabIndex = 38;
+            radioButton4.TabStop = true;
+            radioButton4.Text = "Sentriyol";
+            radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // radioButton3
+            // 
+            radioButton3.AutoSize = true;
+            radioButton3.Location = new Point(6, 72);
+            radioButton3.Name = "radioButton3";
+            radioButton3.Size = new Size(147, 19);
+            radioButton3.TabIndex = 37;
+            radioButton3.TabStop = true;
+            radioButton3.Text = "Endoplazmik retikulum";
+            radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            radioButton2.AutoSize = true;
+            radioButton2.Location = new Point(6, 47);
+            radioButton2.Name = "radioButton2";
+            radioButton2.Size = new Size(72, 19);
+            radioButton2.TabIndex = 36;
+            radioButton2.TabStop = true;
+            radioButton2.Text = "Ribozom";
+            radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            radioButton1.AutoSize = true;
+            radioButton1.Location = new Point(6, 22);
+            radioButton1.Name = "radioButton1";
+            radioButton1.Size = new Size(53, 19);
+            radioButton1.TabIndex = 35;
+            radioButton1.TabStop = true;
+            radioButton1.Text = "Koful";
+            radioButton1.UseVisualStyleBackColor = true;
+            // 
             // panel1
             // 
             panel1.Anchor = AnchorStyles.Right;
@@ -251,149 +394,6 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(528, 652);
             panel2.TabIndex = 37;
-            // 
-            // radioButton1
-            // 
-            radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(6, 22);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(94, 19);
-            radioButton1.TabIndex = 35;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "radioButton1";
-            radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            radioButton2.AutoSize = true;
-            radioButton2.Location = new Point(6, 47);
-            radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(94, 19);
-            radioButton2.TabIndex = 36;
-            radioButton2.TabStop = true;
-            radioButton2.Text = "radioButton2";
-            radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton3
-            // 
-            radioButton3.AutoSize = true;
-            radioButton3.Location = new Point(6, 72);
-            radioButton3.Name = "radioButton3";
-            radioButton3.Size = new Size(94, 19);
-            radioButton3.TabIndex = 37;
-            radioButton3.TabStop = true;
-            radioButton3.Text = "radioButton3";
-            radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // radioButton4
-            // 
-            radioButton4.AutoSize = true;
-            radioButton4.Location = new Point(6, 97);
-            radioButton4.Name = "radioButton4";
-            radioButton4.Size = new Size(94, 19);
-            radioButton4.TabIndex = 38;
-            radioButton4.TabStop = true;
-            radioButton4.Text = "radioButton4";
-            radioButton4.UseVisualStyleBackColor = true;
-            // 
-            // radioButton5
-            // 
-            radioButton5.AutoSize = true;
-            radioButton5.Location = new Point(6, 122);
-            radioButton5.Name = "radioButton5";
-            radioButton5.Size = new Size(94, 19);
-            radioButton5.TabIndex = 39;
-            radioButton5.TabStop = true;
-            radioButton5.Text = "radioButton5";
-            radioButton5.UseVisualStyleBackColor = true;
-            // 
-            // radioButton6
-            // 
-            radioButton6.AutoSize = true;
-            radioButton6.Location = new Point(6, 147);
-            radioButton6.Name = "radioButton6";
-            radioButton6.Size = new Size(94, 19);
-            radioButton6.TabIndex = 40;
-            radioButton6.TabStop = true;
-            radioButton6.Text = "radioButton6";
-            radioButton6.UseVisualStyleBackColor = true;
-            // 
-            // radioButton7
-            // 
-            radioButton7.AutoSize = true;
-            radioButton7.Location = new Point(230, 22);
-            radioButton7.Name = "radioButton7";
-            radioButton7.Size = new Size(94, 19);
-            radioButton7.TabIndex = 41;
-            radioButton7.TabStop = true;
-            radioButton7.Text = "radioButton7";
-            radioButton7.UseVisualStyleBackColor = true;
-            // 
-            // radioButton8
-            // 
-            radioButton8.AutoSize = true;
-            radioButton8.Location = new Point(230, 47);
-            radioButton8.Name = "radioButton8";
-            radioButton8.Size = new Size(94, 19);
-            radioButton8.TabIndex = 42;
-            radioButton8.TabStop = true;
-            radioButton8.Text = "radioButton8";
-            radioButton8.UseVisualStyleBackColor = true;
-            // 
-            // radioButton9
-            // 
-            radioButton9.AutoSize = true;
-            radioButton9.Location = new Point(230, 72);
-            radioButton9.Name = "radioButton9";
-            radioButton9.Size = new Size(94, 19);
-            radioButton9.TabIndex = 43;
-            radioButton9.TabStop = true;
-            radioButton9.Text = "radioButton9";
-            radioButton9.UseVisualStyleBackColor = true;
-            // 
-            // radioButton10
-            // 
-            radioButton10.AutoSize = true;
-            radioButton10.Location = new Point(230, 97);
-            radioButton10.Name = "radioButton10";
-            radioButton10.Size = new Size(100, 19);
-            radioButton10.TabIndex = 44;
-            radioButton10.TabStop = true;
-            radioButton10.Text = "radioButton10";
-            radioButton10.UseVisualStyleBackColor = true;
-            // 
-            // radioButton11
-            // 
-            radioButton11.AutoSize = true;
-            radioButton11.Location = new Point(230, 122);
-            radioButton11.Name = "radioButton11";
-            radioButton11.Size = new Size(100, 19);
-            radioButton11.TabIndex = 45;
-            radioButton11.TabStop = true;
-            radioButton11.Text = "radioButton11";
-            radioButton11.UseVisualStyleBackColor = true;
-            // 
-            // radioButton12
-            // 
-            radioButton12.AutoSize = true;
-            radioButton12.Location = new Point(230, 147);
-            radioButton12.Name = "radioButton12";
-            radioButton12.Size = new Size(100, 19);
-            radioButton12.TabIndex = 46;
-            radioButton12.TabStop = true;
-            radioButton12.Text = "radioButton12";
-            radioButton12.UseVisualStyleBackColor = true;
-            // 
-            // radioButton13
-            // 
-            radioButton13.AutoSize = true;
-            radioButton13.Location = new Point(102, 175);
-            radioButton13.Name = "radioButton13";
-            radioButton13.Size = new Size(100, 19);
-            radioButton13.TabIndex = 47;
-            radioButton13.TabStop = true;
-            radioButton13.Text = "radioButton13";
-            radioButton13.UseVisualStyleBackColor = true;
             // 
             // FormHucre
             // 

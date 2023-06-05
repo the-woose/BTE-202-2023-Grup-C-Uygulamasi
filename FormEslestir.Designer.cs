@@ -105,13 +105,14 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(12, 124);
+            label1.Location = new Point(7, 102);
+            label1.MaximumSize = new Size(830, 30);
             label1.Name = "label1";
             label1.RightToLeft = RightToLeft.No;
             label1.Size = new Size(526, 15);
             label1.TabIndex = 12;
             label1.Text = ".............................................................................................................................................................................";
-            label1.TextAlign = ContentAlignment.MiddleRight;
+            label1.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // panel1
             // 
@@ -369,140 +370,152 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(12, 191);
+            label2.Location = new Point(7, 169);
+            label2.MaximumSize = new Size(830, 30);
             label2.Name = "label2";
             label2.RightToLeft = RightToLeft.No;
             label2.Size = new Size(526, 15);
             label2.TabIndex = 12;
             label2.Text = ".............................................................................................................................................................................";
-            label2.TextAlign = ContentAlignment.MiddleRight;
+            label2.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(12, 258);
+            label3.Location = new Point(7, 236);
+            label3.MaximumSize = new Size(830, 30);
             label3.Name = "label3";
             label3.RightToLeft = RightToLeft.No;
             label3.Size = new Size(526, 15);
             label3.TabIndex = 12;
             label3.Text = ".............................................................................................................................................................................";
-            label3.TextAlign = ContentAlignment.MiddleRight;
+            label3.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(12, 325);
+            label4.Location = new Point(7, 303);
+            label4.MaximumSize = new Size(830, 30);
             label4.Name = "label4";
             label4.RightToLeft = RightToLeft.No;
             label4.Size = new Size(526, 15);
             label4.TabIndex = 12;
             label4.Text = ".............................................................................................................................................................................";
-            label4.TextAlign = ContentAlignment.MiddleRight;
+            label4.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(12, 392);
+            label5.Location = new Point(7, 370);
+            label5.MaximumSize = new Size(830, 30);
             label5.Name = "label5";
             label5.RightToLeft = RightToLeft.No;
             label5.Size = new Size(526, 15);
             label5.TabIndex = 12;
             label5.Text = ".............................................................................................................................................................................";
-            label5.TextAlign = ContentAlignment.MiddleRight;
+            label5.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(12, 459);
+            label6.Location = new Point(7, 437);
+            label6.MaximumSize = new Size(830, 30);
             label6.Name = "label6";
             label6.RightToLeft = RightToLeft.No;
             label6.Size = new Size(526, 15);
             label6.TabIndex = 12;
             label6.Text = ".............................................................................................................................................................................";
-            label6.TextAlign = ContentAlignment.MiddleRight;
+            label6.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(12, 526);
+            label7.Location = new Point(7, 504);
+            label7.MaximumSize = new Size(830, 30);
             label7.Name = "label7";
             label7.RightToLeft = RightToLeft.No;
             label7.Size = new Size(526, 15);
             label7.TabIndex = 12;
             label7.Text = ".............................................................................................................................................................................";
-            label7.TextAlign = ContentAlignment.MiddleRight;
+            label7.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // label8
             // 
             label8.Anchor = AnchorStyles.Top;
             label8.AutoSize = true;
-            label8.Location = new Point(859, 134);
+            label8.Location = new Point(854, 102);
+            label8.MaximumSize = new Size(830, 30);
             label8.Name = "label8";
             label8.RightToLeft = RightToLeft.No;
             label8.Size = new Size(526, 15);
             label8.TabIndex = 12;
             label8.Text = ".............................................................................................................................................................................";
-            label8.TextAlign = ContentAlignment.MiddleRight;
+            label8.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // label9
             // 
             label9.Anchor = AnchorStyles.Top;
             label9.AutoSize = true;
-            label9.Location = new Point(859, 201);
+            label9.Location = new Point(854, 169);
+            label9.MaximumSize = new Size(830, 30);
             label9.Name = "label9";
             label9.RightToLeft = RightToLeft.No;
             label9.Size = new Size(526, 15);
             label9.TabIndex = 12;
             label9.Text = ".............................................................................................................................................................................";
-            label9.TextAlign = ContentAlignment.MiddleRight;
+            label9.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // label10
             // 
             label10.Anchor = AnchorStyles.Top;
             label10.AutoSize = true;
-            label10.Location = new Point(859, 268);
+            label10.Location = new Point(854, 236);
+            label10.MaximumSize = new Size(830, 30);
             label10.Name = "label10";
             label10.RightToLeft = RightToLeft.No;
             label10.Size = new Size(526, 15);
             label10.TabIndex = 12;
             label10.Text = ".............................................................................................................................................................................";
-            label10.TextAlign = ContentAlignment.MiddleRight;
+            label10.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // label11
             // 
             label11.Anchor = AnchorStyles.Top;
             label11.AutoSize = true;
-            label11.Location = new Point(859, 335);
+            label11.Location = new Point(854, 303);
+            label11.MaximumSize = new Size(830, 30);
             label11.Name = "label11";
             label11.RightToLeft = RightToLeft.No;
             label11.Size = new Size(526, 15);
             label11.TabIndex = 12;
             label11.Text = ".............................................................................................................................................................................";
-            label11.TextAlign = ContentAlignment.MiddleRight;
+            label11.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // label13
             // 
             label13.Anchor = AnchorStyles.Top;
             label13.AutoSize = true;
-            label13.Location = new Point(859, 469);
+            label13.Location = new Point(854, 437);
+            label13.MaximumSize = new Size(830, 30);
             label13.Name = "label13";
             label13.RightToLeft = RightToLeft.No;
             label13.Size = new Size(526, 15);
             label13.TabIndex = 12;
             label13.Text = ".............................................................................................................................................................................";
-            label13.TextAlign = ContentAlignment.MiddleRight;
+            label13.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // label12
             // 
             label12.Anchor = AnchorStyles.Top;
             label12.AutoSize = true;
-            label12.Location = new Point(859, 402);
+            label12.Location = new Point(854, 370);
+            label12.MaximumSize = new Size(830, 30);
             label12.Name = "label12";
             label12.RightToLeft = RightToLeft.No;
             label12.Size = new Size(526, 15);
             label12.TabIndex = 12;
             label12.Text = ".............................................................................................................................................................................";
-            label12.TextAlign = ContentAlignment.MiddleRight;
+            label12.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // pictureBox1
             // 
