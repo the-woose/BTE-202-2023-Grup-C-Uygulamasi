@@ -99,12 +99,73 @@ namespace BTE_202___2023_Grup_C_Uygulaması
         private void button1_Click(object sender, EventArgs e)
         {
             Random rastgele = new Random();
-            int rastgeleSayi = rastgele.Next(0, 12);
-            //string konuDosyasi = File.ReadAllText("../../../Assets/konular.json");
             string konuDosyasi = File.ReadAllText("./Assets/konular.json");
             List<Konular> konular = JsonConvert.DeserializeObject<List<Konular>>(konuDosyasi);
-            textSoru.Text = konular[rastgeleSayi].cisim.ToString();
-            textCevap.Text = konular[rastgeleSayi].tanim.ToString();
+            if (radioButton1.Checked)
+            {
+                textSoru.Text = konular[0].cisim.ToString();
+                textCevap.Text = konular[0].tanim.ToString();
+            }
+            if (radioButton2.Checked)
+            {
+                textSoru.Text = konular[1].cisim.ToString();
+                textCevap.Text = konular[1].tanim.ToString();
+            }
+            if (radioButton3.Checked)
+            {
+                textSoru.Text = konular[2].cisim.ToString();
+                textCevap.Text = konular[2].tanim.ToString();
+            }
+            if (radioButton4.Checked)
+            {
+                textSoru.Text = konular[3].cisim.ToString();
+                textCevap.Text = konular[3].tanim.ToString();
+            }
+            if (radioButton5.Checked)
+            {
+                textSoru.Text = konular[4].cisim.ToString();
+                textCevap.Text = konular[4].tanim.ToString();
+            }
+            if (radioButton6.Checked)
+            {
+                textSoru.Text = konular[5].cisim.ToString();
+                textCevap.Text = konular[5].tanim.ToString();
+            }
+            if (radioButton7.Checked)
+            {
+                textSoru.Text = konular[6].cisim.ToString();
+                textCevap.Text = konular[6].tanim.ToString();
+            }
+            if (radioButton8.Checked)
+            {
+                textSoru.Text = konular[7].cisim.ToString();
+                textCevap.Text = konular[7].tanim.ToString();
+            }
+            if (radioButton9.Checked)
+            {
+                textSoru.Text = konular[8].cisim.ToString();
+                textCevap.Text = konular[8].tanim.ToString();
+            }
+            if (radioButton10.Checked)
+            {
+                textSoru.Text = konular[9].cisim.ToString();
+                textCevap.Text = konular[9].tanim.ToString();
+            }
+            if (radioButton11.Checked)
+            {
+                textSoru.Text = konular[10].cisim.ToString();
+                textCevap.Text = konular[10].tanim.ToString();
+            }
+            if (radioButton12.Checked)
+            {
+                textSoru.Text = konular[11].cisim.ToString();
+                textCevap.Text = konular[11].tanim.ToString();
+            }
+            if (radioButton13.Checked)
+            {
+                textSoru.Text = konular[12].cisim.ToString();
+                textCevap.Text = konular[12].tanim.ToString();
+            }
         }
 
 

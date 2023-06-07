@@ -140,19 +140,19 @@
             // 
             lblUygulamaAdi.BorderColor = Color.Empty;
             lblUygulamaAdi.BorderSize = 0;
-            lblUygulamaAdi.ControlText = "Uygulama Adı";
+            lblUygulamaAdi.ControlText = "Hücreyi Öğreniyorum";
             lblUygulamaAdi.Enabled = false;
             lblUygulamaAdi.FillColor = Color.Turquoise;
             lblUygulamaAdi.FlatAppearance.BorderSize = 0;
             lblUygulamaAdi.FlatStyle = FlatStyle.Flat;
             lblUygulamaAdi.Font = new Font("Segoe UI", 30F, FontStyle.Bold, GraphicsUnit.Point);
             lblUygulamaAdi.ForeColor = Color.White;
-            lblUygulamaAdi.Location = new Point(212, 91);
+            lblUygulamaAdi.Location = new Point(180, 93);
             lblUygulamaAdi.Name = "lblUygulamaAdi";
             lblUygulamaAdi.Radius = 50;
-            lblUygulamaAdi.Size = new Size(394, 98);
+            lblUygulamaAdi.Size = new Size(448, 98);
             lblUygulamaAdi.TabIndex = 24;
-            lblUygulamaAdi.Text = "Uygulama Adı";
+            lblUygulamaAdi.Text = "Hücreyi Öğreniyorum";
             // 
             // btnQuiz
             // 
