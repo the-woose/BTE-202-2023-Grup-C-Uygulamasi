@@ -8,14 +8,9 @@ namespace BTE_202___2023_Grup_C_Uygulaması
 {
     internal static class Program
     {
-        /// <summary>
-        ///  The main entry point for the application.
-        /// </summary>
         [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new MainWindow());
         }
@@ -85,7 +80,6 @@ namespace BTE_202___2023_Grup_C_Uygulaması
 
         public RoundedButton()
         {
-            //InitializeComponent();
         }
 
         public RoundedButton(int nRadius = 20, Color? fillColor = null, Color? borderColor = null, int borderSize = 4)
@@ -115,7 +109,6 @@ namespace BTE_202___2023_Grup_C_Uygulaması
                 e.Graphics.DrawPath(pen, gp);
             }
 
-            //System.Drawing.Size textSize = TextRenderer.MeasureText(this.Text, this.Font);
             Size textSize = TextRenderer.MeasureText(this.ControlText, this.Font);
             var nWidth = ((this.Width - textSize.Width) / 2);
             var nHeight = ((this.Height - textSize.Height) / 2);
